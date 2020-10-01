@@ -1,0 +1,67 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		"arrow"				[$WIN32]
+		{
+				"file"		"sprites/arrow"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"autoaim_c"			[$WIN32]
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"96"
+				"y"			"0"
+				"width"		"24"
+				"height"	"24"
+		}
+		"item_battery"		[$WIN32]
+		{
+				"font"		"WeaponIcons"
+				"character"	"*"
+		}
+		"item_healthkit"	[$WIN32]
+		{
+				"font"		"WeaponIcons"
+				"character"	"+"
+		}
+		"health_label"
+		{
+				"font"		"HudIcons"
+				"character"	"b"
+		}
+		"health_label_glow"
+		{
+				"font"		"HudIconsGlow"
+				"character"	"b"
+		}
+		"battery_label"
+		{
+				"font"		"HudIcons"
+				"character"	"a"
+		}
+		"battery_label_glow"
+		{
+				"font"		"HudIconsGlow"
+				"character"	"a"
+		}
+		"ammo_label"
+		{
+				"font"		"HudIcons"
+				"character"	"A"
+		}
+		"bg_zero"
+		{
+				"font"		"HudNumbers"
+				"character"	"000"
+		}
+		"bg_zero_small"
+		{
+				"font"		"HudNumbersSmall"
+				"character"	"000"
+		}
+	}	
+}

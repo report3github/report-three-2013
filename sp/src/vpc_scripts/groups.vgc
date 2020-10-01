@@ -23,6 +23,7 @@ $Group "game"
 	"tier1"
 	"vgui_controls"
 	"vscript"
+	"gameui2"
 }
 
 $Group "shaders"

@@ -53,6 +53,7 @@
 #include "clientmode_shared.h"
 #include "sourcevr/isourcevirtualreality.h"
 #include "client_virtualreality.h"
+#include "..\gameui2\igameui2.h"
 
 #ifdef PORTAL
 //#include "C_Portal_Player.h"
@@ -2423,6 +2424,15 @@ void CViewRender::RenderView( const CViewSetup &view, int nClearFlags, int whatT
 
 	render->PopView( GetFrustum() );
 	g_WorldListCache.Flush();
+
+	if (GameUI2 != nullptr)
+	{
+		GameUI2->SetFrustum(GetFrustum());
+		GameUI2->SetView(view);
+
+		if (materials->GetRenderContext() != nullptr)
+			GameUI2->SetRenderContext(materials->GetRenderContext());
+	}
 }
 
 //-----------------------------------------------------------------------------

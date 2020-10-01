@@ -25,9 +25,10 @@ using namespace vgui;
 CHudNumericDisplay::CHudNumericDisplay(vgui::Panel *parent, const char *name) : BaseClass(parent, name)
 {
 	vgui::Panel *pParent = g_pClientMode->GetViewport();
-	SetParent( pParent );
+	SetParent(pParent);
 
 	m_iValue = 0;
+	//	m_iBGValue = 000;
 	m_LabelText[0] = 0;
 	m_iSecondaryValue = 0;
 	m_bDisplayValue = true;
@@ -50,6 +51,7 @@ void CHudNumericDisplay::Reset()
 void CHudNumericDisplay::SetDisplayValue(int value)
 {
 	m_iValue = value;
+	//	m_iBGValue = 000;
 }
 
 //-----------------------------------------------------------------------------
@@ -108,7 +110,7 @@ void CHudNumericDisplay::PaintNumbers(HFont font, int xpos, int ypos, int value)
 {
 	surface()->DrawSetTextFont(font);
 	wchar_t unicode[6];
-	if ( !m_bIsTime )
+	if (!m_bIsTime)
 	{
 		V_snwprintf(unicode, ARRAYSIZE(unicode), L"%d", value);
 	}
@@ -116,44 +118,43 @@ void CHudNumericDisplay::PaintNumbers(HFont font, int xpos, int ypos, int value)
 	{
 		int iMinutes = value / 60;
 		int iSeconds = value - iMinutes * 60;
-#ifdef PORTAL
-		// portal uses a normal font for numbers so we need the seperate to be a renderable ':' char
-		if ( iSeconds < 10 )
-			V_snwprintf( unicode, ARRAYSIZE(unicode), L"%d:0%d", iMinutes, iSeconds );
+
+		if (iSeconds < 10)
+			V_snwprintf(unicode, ARRAYSIZE(unicode), L"%d`0%d", iMinutes, iSeconds);
 		else
-			V_snwprintf( unicode, ARRAYSIZE(unicode), L"%d:%d", iMinutes, iSeconds );		
-#else
-		if ( iSeconds < 10 )
-			V_snwprintf( unicode, ARRAYSIZE(unicode), L"%d`0%d", iMinutes, iSeconds );
-		else
-			V_snwprintf( unicode, ARRAYSIZE(unicode), L"%d`%d", iMinutes, iSeconds );
-#endif
+			V_snwprintf(unicode, ARRAYSIZE(unicode), L"%d`%d", iMinutes, iSeconds);
 	}
 
 	// adjust the position to take into account 3 characters
 	int charWidth = surface()->GetCharacterWidth(font, '0');
-	if (value < 100 && m_bIndent)
+
+	if (value < 100)
 	{
 		xpos += charWidth;
 	}
-	if (value < 10 && m_bIndent)
+	if (value < 10)
 	{
 		xpos += charWidth;
 	}
 
 	surface()->DrawSetTextPos(xpos, ypos);
-	surface()->DrawUnicodeString( unicode );
+	surface()->DrawUnicodeString(unicode);
 }
 
 //-----------------------------------------------------------------------------
 // Purpose: draws the text
 //-----------------------------------------------------------------------------
-void CHudNumericDisplay::PaintLabel( void )
+void CHudNumericDisplay::PaintLabel(void)
 {
+	//	surface()->DrawSetTextFont(m_hTextGlowFont);
+	//	surface()->DrawSetTextColor(GetFgColor());
+	//	surface()->DrawSetTextPos(text_xpos, text_ypos);
+	//	surface()->DrawUnicodeString(m_LabelText);
 	surface()->DrawSetTextFont(m_hTextFont);
 	surface()->DrawSetTextColor(GetFgColor());
 	surface()->DrawSetTextPos(text_xpos, text_ypos);
-	surface()->DrawUnicodeString( m_LabelText );
+	surface()->DrawUnicodeString(m_LabelText);
+
 }
 
 //-----------------------------------------------------------------------------
@@ -163,32 +164,59 @@ void CHudNumericDisplay::Paint()
 {
 	if (m_bDisplayValue)
 	{
-		// draw our numbers
-		surface()->DrawSetTextColor(GetFgColor());
-		PaintNumbers(m_hNumberFont, digit_xpos, digit_ypos, m_iValue);
+		//		surface()->DrawSetTextColor(Color(76, 76, 76, 128));
+		//PaintNumbers(m_hNumberFont, digit_xpos, digit_ypos, m_iBGValue);
 
-		// draw the overbright blur
-		for (float fl = m_flBlur; fl > 0.0f; fl -= 1.0f)
-		{
-			if (fl >= 1.0f)
-			{
-				PaintNumbers(m_hNumberGlowFont, digit_xpos, digit_ypos, m_iValue);
-			}
-			else
-			{
-				// draw a percentage of the last one
-				Color col = GetFgColor();
-				col[3] *= fl;
-				surface()->DrawSetTextColor(col);
-				PaintNumbers(m_hNumberGlowFont, digit_xpos, digit_ypos, m_iValue);
-			}
-		}
+		//bg grey zero's not small 1
+		m_iconZero = gHUD.GetIcon("bg_zero");
+		m_iconZero->DrawSelf(digit_xpos, digit_ypos, Color(76, 76, 76, 128));
+
+		//bg grey zero's not small 2
+		m_iconZero = gHUD.GetIcon("bg_zero");
+		m_iconZero->DrawSelf(digit_xpos + 30, digit_ypos, Color(76, 76, 76, 128));
+
+		//bg grey zero's not small 3
+		m_iconZero = gHUD.GetIcon("bg_zero");
+		m_iconZero->DrawSelf(digit_xpos + 63, digit_ypos, Color(76, 76, 76, 128));
+
+		//set color for glow
+		surface()->DrawSetTextColor(Color(191, 138, 33, 48));
+		//make that glow
+		PaintNumbers(m_hNumberGlowFont, digit_xpos, digit_ypos, m_iValue);
+		//set color to FgColor
+		surface()->DrawSetTextColor(GetFgColor());
+		Color col = GetFgColor();
+		col[3] *= 1.0f;
+		surface()->DrawSetTextColor(col);
+		//make normal numbers
+		PaintNumbers(m_hNumberFont, digit_xpos, digit_ypos, m_iValue);
 	}
 
 	// total ammo
 	if (m_bDisplaySecondaryValue)
 	{
+		//		surface()->DrawSetTextColor(Color(76, 76, 76, 128));
+		//		PaintNumbers(m_hSmallNumberFont, digit2_xpos, digit2_ypos, m_iBGValue);
+
+		//bg grey zero's small 1
+		m_iconZero = gHUD.GetIcon("bg_zero_small");
+		m_iconZero->DrawSelf(digit2_xpos, digit2_ypos, Color(76, 76, 76, 128));
+
+		//bg grey zero's small 2
+		m_iconZero = gHUD.GetIcon("bg_zero_small");
+		m_iconZero->DrawSelf(digit2_xpos + 14, digit2_ypos, Color(76, 76, 76, 128));
+
+		//bg grey zero's small 3
+		m_iconZero = gHUD.GetIcon("bg_zero_small");
+		m_iconZero->DrawSelf(digit2_xpos + 28, digit2_ypos, Color(76, 76, 76, 128));
+
+		//repeat that but for secondary (smol) numbers
+		surface()->DrawSetTextColor(Color(191, 138, 33, 48));
+		PaintNumbers(m_hSmallNumberGlowFont, digit2_xpos - 5, digit2_ypos + 1, m_iSecondaryValue);
 		surface()->DrawSetTextColor(GetFgColor());
+		Color col = GetFgColor();
+		col[3] *= 1.0f;
+		surface()->DrawSetTextColor(col);
 		PaintNumbers(m_hSmallNumberFont, digit2_xpos, digit2_ypos, m_iSecondaryValue);
 	}
 

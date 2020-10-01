@@ -59,6 +59,7 @@ class IEngineReplay;
 class IEngineClientReplay;
 class IReplayScreenshotManager;
 class CSteamID;
+class IGameUI2;
 
 //=============================================================================
 // HPE_BEGIN
@@ -113,6 +114,7 @@ extern IEngineClientReplay *g_pEngineClientReplay;
 #ifdef MAPBASE
 extern IVEngineServer *serverengine;
 #endif
+extern IGameUI2* GameUI2;
 
 //=============================================================================
 // HPE_BEGIN
