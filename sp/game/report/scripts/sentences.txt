@@ -1,0 +1,1988 @@
+// HALF-LIFE 2 SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+// Sounds prefixed by "Q_" will be queued up for a while and played as soon as the NPC is allowed to speak
+
+// WELCOME TO THE FRANKSTER'S HALF-LIFE: ALYX COMBINE SOUND MOD (GRUNT VERSION)
+// ON/OFF SOUNDS ARE LOCALIZED USING MYNAMES AND MYNUMS SO EACH UNIT WILL USE THE SAME RANDOM RADIO ON/OFF SOUNDS EACH TIME THEY TALK
+// when you see || you know that's a comment The Frankster made in a default comment
+
+// ---PLEASE DO NOT ALTER THIS MOD OR PUBLISH IT AS YOUR OWN OR USE IT IN A MOD WITHOUT MY EXPLICIT WRITTEN PERMISSION. THANK YOU---
+
+// all sentences have + 1s added to accomodate the randomized radio sounds
+
+// ON5 + OFF5 = 0.705s = 1s (to speed things up)
+// LONGEST RNDNUM = niner = 0.5s
+// LONGEST CODE = apf = 0.697s
+// LONGEST RNDNAME echo = 0.383s = 0.4s
+// calloutcode dash = 0.4s
+// calloutcode and = 0.3s
+// , = 0.19s = 0.2s
+// . = 0.58s = 0.6s
+// rndnum + dash + rndnum = 1.4s
+// 3. 2. 1. + on and offs = 3.8s 
+
+//CHARACTER SECTION
+
+//COMBINE SOLDIER
+
+// COMBINE SOLDIER
+
+// V_ indicates 'virtual' name or number
+// last letter indicates type: 'S' = soldier
+
+// soldier names, remembered by speaker: || IN FRANKSTER'S HL:A SOUND MOD, THESE ARE USED AS RADIO ON SOUNDS SO EACH COMBINE HAS THEIR OWN UNIQUE RADIO ON/OFF
+
+
+V_MYNAMES0 on1 {Len 0.161}
+V_MYNAMES1 on2 {Len 0.184}
+V_MYNAMES2 on3 {Len 0.050}
+V_MYNAMES3 on4 {Len 0.185}
+V_MYNAMES4 on5 {Len 0.222}
+V_MYNAMES5 off1 {Len 0.103}
+//V_MYNAMES0 vo/combine/grunt/ calloutentity_bladewall_01 {Len }
+//V_MYNAMES1 vo/combine/grunt/ calloutentity_echoone_01 {Len }
+//V_MYNAMES2 vo/combine/grunt/ calloutentity_hammerwall_01 {Len }
+//V_MYNAMES3 vo/combine/grunt/ calloutentity_safeman_01 {Len }
+//V_MYNAMES4 vo/combine/grunt/ calloutentity_wallhammer_01 {Len }
+//V_MYNAMES5 vo/combine/grunt/ calloutlocation_bricks_01 {Len }
+//V_MYNAMES6 vo/combine/grunt/ calloutlocation_bridge_01 {Len }
+//V_MYNAMES7 vo/combine/grunt/ calloutlocation_pipes_01 {Len }
+//V_MYNAMES8 vo/combine/grunt/ calloutlocation_woodpile_01 {Len }
+//V_MYNAMES9 vo/combine/grunt/ calloutentity_cowall_01 {Len }
+//V_MYNAMES10 vo/combine/grunt/ calloutlocation_barrells_01 {Len }
+//V_MYNAMES11 vo/combine/grunt/ calloutlocation_truck_01 {Len }
+//V_MYNAMES18 dagger {Len 0.4}
+
+// air support names: || USED AS SECTOR NAMES
+
+V_RNDNAMES0 calloutcode_alpha_01 {Len 0.327}
+V_RNDNAMES1 calloutcode_bravo_01 {Len 0.359}
+V_RNDNAMES2 calloutcode_charlie_01 {Len 0.310}
+V_RNDNAMES3 calloutcode_delta_01 {Len 0.325}
+V_RNDNAMES4 calloutcode_echo_01 {Len 0.383}
+//V_RNDNAMES0 vo/combine/grunt/ calloutentity_apf_01 {Len }
+//V_RNDNAMES1 vo/combine/grunt/ calloutentity_aps_01 {Len }
+//V_RNDNAMES2 vo/combine/grunt/ calloutentity_friendly_01 {Len }
+//V_RNDNAMES3 vo/combine/grunt/ calloutentity_overwatch_01 {Len }
+//V_RNDNAMES4 vo/combine/grunt/ calloutlocation_crane_01 {Len }
+//V_RNDNAMES5 vo/combine/grunt/ calloutlocation_tunnel_01 {Len }
+//V_RNDNAMES6 vo/combine/grunt/ calloutlocation_wheels_01 {Len }
+//V_RNDNAMES7 vo/combine/grunt/ calloutcode_thousand_01 {Len }
+//V_RNDNAMES12 star {Len 0.4}  
+
+//phonetic alphabet/codes: // USED AS UNIT NAMES/IDENTITY/CODES
+
+V_RNDCODES0 calloutcode_alpha_01 {Len 0.327}
+V_RNDCODES1 calloutcode_bravo_01 {Len 0.359}
+V_RNDCODES2 calloutcode_charlie_01 {Len 0.310}
+V_RNDCODES3 calloutcode_delta_01 {Len 0.325}
+V_RNDCODES4 calloutcode_echo_01 {Len 0.383}
+V_RNDCODES5 calloutentity_echoone_01 {Len 0.549}
+V_RNDCODES6 calloutentity_friendly_01 {Len 0.404}
+V_RNDCODES7 calloutentity_overwatch_01 {Len 0.549}
+V_RNDCODES8 calloutentity_safeman_01 {Len 0.480}
+V_RNDCODES9 calloutentity_bladewall_01 {Len 0.503}
+V_RNDCODES10 calloutentity_hammerwall_01 {Len 0.563}
+V_RNDCODES11 calloutentity_wallhammer_01 {Len 0.544}
+V_RNDCODES12 calloutentity_apf_01 {Len 0.697}
+V_RNDCODES13 calloutentity_aps_01 {Len 0.638}
+//V_RNDCODES16 vo/combine/grunt/   {Len }
+
+//Numbers, remembered by speaker: || USED AS RADIO OFF SOUNDS SO EACH COMBINE HAS THEIR OWN UNIQUE RADIO ON/OFF
+
+V_MYNUMS0 off1 {Len 0.103}
+V_MYNUMS1 off2 {Len 0.142}
+V_MYNUMS2 off3 {Len 0.113}
+V_MYNUMS3 off4 {Len 0.416}
+V_MYNUMS4 off5 {Len 0.484}
+V_MYNUMS5 off6 {Len 0.066}
+V_MYNUMS6 off7 {Len 0.237}
+//V_MYNUMS6 vo/combine/grunt/ calloutcode_six_01 {Len }
+//V_MYNUMS7 vo/combine/grunt/ calloutcode_seven_01 {Len }
+//V_MYNUMS8 vo/combine/grunt/ calloutcode_eight_01 {Len }
+//V_MYNUMS9 vo/combine/grunt/ calloutcode_niner_01 {Len }
+
+// random numbers || USED AS SECTOR/LOCATION NUMBERS, RANDOMIZED
+
+V_RNDNUMS0 calloutcode_null_01 {Len 0.33}
+V_RNDNUMS1 calloutcode_one_01 {Len 0.253}
+V_RNDNUMS2 calloutcode_two_01 {Len 0.286}
+V_RNDNUMS3 calloutcode_three_01 {Len 0.321}
+V_RNDNUMS4 calloutcode_four_01 {Len 0.277}
+V_RNDNUMS5 calloutcode_five_01 {Len 0.314}
+V_RNDNUMS6 calloutcode_six_01 {Len 0.354}
+V_RNDNUMS7 calloutcode_seven_01 {Len 0.334}
+V_RNDNUMS8 calloutcode_eight_01 {Len 0.246}
+V_RNDNUMS9 calloutcode_niner_01 {Len 0.446}
+V_RNDNUMS10 calloutcode_ten_01 {Len 0.298}
+V_RNDNUMS11 calloutcode_eleven_01 {Len 0.394}
+V_RNDNUMS12 calloutcode_twelve_01 {Len 0.385}
+V_RNDNUMS13 calloutcode_twenty_01 {Len 0.229}
+V_RNDNUMS14 calloutcode_thirty_01 {Len 0.3}
+V_RNDNUMS15 calloutcode_forty_01 {Len 0.332}
+V_RNDNUMS16 calloutcode_fifty_01 {Len 0.319}
+V_RNDNUMS17 calloutcode_sixty_01 {Len 0.390}
+V_RNDNUMS18 calloutcode_seventy_01 {Len 0.387}
+
+// numbers, must be in order, used for distance/heading to player use: V_DISTS or V_DIRS || NOT USED IN FRANK'S MOD
+
+V_NUMBERSS0 vo/combine/grunt/ calloutcode_null_01 {Len }
+V_NUMBERSS1 vo/combine/grunt/ calloutcode_one_01 {Len }
+V_NUMBERSS2 vo/combine/grunt/ calloutcode_two_01 {Len }
+V_NUMBERSS3 vo/combine/grunt/ calloutcode_three_01 {Len }
+V_NUMBERSS4 vo/combine/grunt/ calloutcode_four_01 {Len }
+V_NUMBERSS5 vo/combine/grunt/ calloutcode_five_01 {Len }
+V_NUMBERSS6 vo/combine/grunt/ calloutcode_six_01 {Len }
+V_NUMBERSS7 vo/combine/grunt/ calloutcode_seven_01 {Len }
+V_NUMBERSS8 vo/combine/grunt/ calloutcode_eight_01 {Len }
+V_NUMBERSS9 vo/combine/grunt/ calloutcode_niner_01 {Len }
+V_NUMBERSS10 vo/combine/grunt/ calloutcode_ten_01 {Len }
+V_NUMBERSS11 vo/combine/grunt/ calloutcode_eleven_01 {Len }
+V_NUMBERSS12 vo/combine/grunt/ calloutcode_twelve_01 {Len }
+V_NUMBERSS13 vo/combine/grunt/ calloutcode_one-three_01 {Len }
+V_NUMBERSS14 vo/combine/grunt/ calloutcode_one-four_01 {Len }
+V_NUMBERSS15 vo/combine/grunt/ calloutcode_one-five_01 {Len }
+V_NUMBERSS16 vo/combine/grunt/ calloutcode_one-six_01 {Len }
+V_NUMBERSS17 vo/combine/grunt/ calloutcode_one-seven_01 {Len }
+V_NUMBERSS18 vo/combine/grunt/ calloutcode_one-eight_01 {Len }
+V_NUMBERSS19 vo/combine/grunt/ calloutcode_one-niner_01 {Len }
+V_NUMBERSS20 vo/combine/grunt/ calloutcode_twenty_01 {Len }
+V_NUMBERSS21 vo/combine/grunt/ calloutcode_thirty_01 {Len }
+V_NUMBERSS22 vo/combine/grunt/ calloutcode_forty_01 {Len }
+V_NUMBERSS23 vo/combine/grunt/ calloutcode_fifty_01 {Len }
+V_NUMBERSS24 vo/combine/grunt/ calloutcode_sixty_01 {Len }
+V_NUMBERSS25 vo/combine/grunt/ calloutcode_seventy_01 {Len }
+V_NUMBERSS26 vo/combine/grunt/ calloutcode_eight_01 calloutcode_null_01 {Len }
+V_NUMBERSS27 vo/combine/grunt/ calloutcode_niner_01 calloutcode_null_01 {Len }
+V_NUMBERSS28 vo/combine/grunt/ calloutcode_one_01 calloutcode_hundred_01 {Len }
+V_NUMBERSS29 vo/combine/grunt/ calloutcode_two_01 calloutcode_hundred_01 {Len }
+V_NUMBERSS30 vo/combine/grunt/ calloutcode_three_01 calloutcode_hundred_01 {Len }
+//V_NUMBERSS31 vo/combine/grunt/ calloutcode_one_01 calloutcode_thousand_01 {Len }
+
+// rnd global, used to designate target || NOT USED IN FRANK'S MOD SO NOT ALTERED
+
+V_G0_PLAYERS0 freeman3 {Len 0.5}
+V_G0_PLAYERS1 anticitizenone {Len 0.5}
+V_G0_PLAYERS2 targetone {Len 0.5}
+V_G0_PLAYERS3 priority1objective {Len 0.5}
+V_G0_PLAYERS4 phantom {Len 0.5}
+V_G0_PLAYERS5 ghost2 {Len 0.5}
+
+// sequential gobal numbers, used for counting enemies down || NOT USED IN FRANK'S MOD
+
+V_SEQGLOBNBRS0 vo/combine/grunt/ calloutcode_null_01 {Len } 
+V_SEQGLOBNBRS1 vo/combine/grunt/ calloutcode_one_01 {Len }
+V_SEQGLOBNBRS2 vo/combine/grunt/ calloutcode_two_01 {Len }
+V_SEQGLOBNBRS3 vo/combine/grunt/ calloutcode_three_01 {Len }
+V_SEQGLOBNBRS4 vo/combine/grunt/ calloutcode_four_01 {Len }
+V_SEQGLOBNBRS5 vo/combine/grunt/ calloutcode_five_01 {Len }
+V_SEQGLOBNBRS6 vo/combine/grunt/ calloutcode_six_01 {Len }
+V_SEQGLOBNBRS7 vo/combine/grunt/ calloutcode_seven_01 {Len }
+V_SEQGLOBNBRS8 vo/combine/grunt/ calloutcode_eight_01 {Len }
+V_SEQGLOBNBRS9 vo/combine/grunt/ calloutcode_niner_01 {Len }
+V_SEQGLOBNBRS10 vo/combine/grunt/ calloutcode_ten_01 {Len }
+V_SEQGLOBNBRS11 vo/combine/grunt/ calloutcode_eleven_01 {Len }
+V_SEQGLOBNBRS12 vo/combine/grunt/ calloutcode_twelve_01 {Len }
+V_SEQGLOBNBRS13 vo/combine/grunt/ calloutcode_one-three_01 {Len }
+V_SEQGLOBNBRS14 vo/combine/grunt/ calloutcode_one-four_01 {Len }
+V_SEQGLOBNBRS15 vo/combine/grunt/ calloutcode_one-five_01 {Len }
+V_SEQGLOBNBRS16 vo/combine/grunt/ calloutcode_one-six_01 {Len }
+V_SEQGLOBNBRS17 vo/combine/grunt/ calloutcode_one-seven_01 {Len }
+V_SEQGLOBNBRS18 vo/combine/grunt/ calloutcode_one-eight_01 {Len }
+V_SEQGLOBNBRS19 vo/combine/grunt/ calloutcode_one-niner_01 {Len }
+V_SEQGLOBNBRS20 vo/combine/grunt/ calloutcode_twenty_01 {Len }
+
+
+//PAIN
+COMBINE_PAIN0 vo/combine/grunt/pain_01 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN1 vo/combine/grunt/pain_02 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN2 vo/combine/grunt/pain_03 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN3 vo/combine/grunt/pain_04 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN4 vo/combine/grunt/pain_05 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN5 vo/combine/grunt/pain_06 {Len 0.3 closecaption NPC_Combine.Pain}
+COMBINE_PAIN6 vo/combine/grunt/pain_07 {Len 0.3 closecaption NPC_Combine.Pain}
+COMBINE_PAIN7 vo/combine/grunt/pain_08 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN8 vo/combine/grunt/pain_09 {Len 0.3 closecaption NPC_Combine.Pain}
+COMBINE_PAIN9 vo/combine/grunt/pain_10 {Len 0.4 closecaption NPC_Combine.Pain}
+COMBINE_PAIN10 vo/combine/grunt/avoids_rollerball_01 {Len 0.2 closecaption NPC_Combine.Pain}
+COMBINE_PAIN11 vo/combine/grunt/avoids_rollerball_03 {Len 0.2 closecaption NPC_Combine.Pain}
+COMBINE_PAIN12 vo/combine/grunt/avoids_rollerball_04 {Len 0.5 closecaption NPC_Combine.Pain}
+COMBINE_PAIN13 vo/combine/grunt/avoids_rollerball_05 {Len 0.3 closecaption NPC_Combine.Pain}
+COMBINE_PAIN14 vo/combine/grunt/avoids_rollerball_06 {Len 0.3 closecaption NPC_Combine.Pain}
+COMBINE_PAIN15 vo/combine/grunt/avoids_rollerball_07 {Len 0.4 closecaption NPC_Combine.Pain}
+
+
+//DIE
+COMBINE_DIE0 vo/combine/grunt/die_01 V_IDIEDS {Len 2.0 closecaption NPC_Combine.Death}
+COMBINE_DIE1 vo/combine/grunt/die_02 V_IDIEDS {Len 2.1 closecaption NPC_Combine.Death}
+COMBINE_DIE2 vo/combine/grunt/die_03 V_IDIEDS {Len 2.1 closecaption NPC_Combine.Death}
+COMBINE_DIE3 vo/combine/grunt/die_04 V_IDIEDS {Len 2.4 closecaption NPC_Combine.Death}
+COMBINE_DIE4 vo/combine/grunt/die_05 V_IDIEDS {Len 2.0 closecaption NPC_Combine.Death}
+COMBINE_DIE5 vo/combine/grunt/die_06 V_IDIEDS {Len 1.9 closecaption NPC_Combine.Death}
+COMBINE_DIE6 vo/combine/grunt/die_07 V_IDIEDS {Len 1.9 closecaption NPC_Combine.Death}
+COMBINE_DIE7 vo/combine/grunt/die_08 V_IDIEDS {Len 2.0 closecaption NPC_Combine.Death}
+COMBINE_DIE8 vo/combine/grunt/die_09 V_IDIEDS {Len 2.5 closecaption NPC_Combine.Death}
+COMBINE_DIE9 vo/combine/grunt/die_10 V_IDIEDS {Len 2.5 closecaption NPC_Combine.Death}
+COMBINE_DIE10 vo/combine/grunt/die_by_player_18 V_IDIEDS {Len 2.1 closecaption NPC_Combine.Death}
+COMBINE_DIE11 vo/combine/grunt/die_by_player_22 V_IDIEDS {Len 2.1 closecaption NPC_Combine.Death}
+COMBINE_DIE12 vo/combine/grunt/die_by_player_23 V_IDIEDS {Len 2.1 closecaption NPC_Combine.Death}
+
+
+//KICK || hopefully these work
+COMBINE_KICK0 vo/combine/grunt/(v100) V_MYNAMES nearpanic_01 V_MYNUMS {Len 1.4}
+COMBINE_KICK1 vo/combine/grunt/(v100) V_MYNAMES nearpanic_02 V_MYNUMS {Len 1.5}
+COMBINE_KICK2 vo/combine/grunt/(v100) V_MYNAMES nearpanic_09 V_MYNUMS {Len 3.1}
+COMBINE_KICK3 vo/combine/grunt/(v100) V_MYNAMES nearpanic_10 V_MYNUMS {Len 3.9}
+
+
+// I am about to start shooting
+// Marc, for any sentences you want to caption, just add the closecaption entry to the {Len} block as below
+// COMBINE_ANNOUNCE0 vo/combine/grunt/(v100) V_MYNAMES V_MYNAMES V_MYNUMS suppressing V_MYNUMS {Len 0.96 closecaption}
+// To use a specified caption string, put it's name in there, too
+// COMBINE_ANNOUNCE0 vo/combine/grunt/(v100) V_MYNAMES V_MYNAMES V_MYNUMS suppressing V_MYNUMS {Len 0.96 closecaption NPCSound.Caption}
+
+COMBINE_ANNOUNCE0 vo/combine/grunt/(v100) V_MYNAMES announceattack_01 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE1 vo/combine/grunt/(v100) V_MYNAMES announceattack_02 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE2 vo/combine/grunt/(v100) V_MYNAMES announceattack_03 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE3 vo/combine/grunt/(v100) V_MYNAMES announceattack_04 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE4 vo/combine/grunt/(v100) V_MYNAMES announceattack_05 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE5 vo/combine/grunt/(v100) V_MYNAMES announceattack_06 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE6 vo/combine/grunt/(v100) V_MYNAMES announceattack_07 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE7 vo/combine/grunt/(v100) V_MYNAMES announceattack_08 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE8 vo/combine/grunt/(v100) V_MYNAMES announceattack_09 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE9 vo/combine/grunt/(v100) V_MYNAMES announceattack_11 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE10 vo/combine/grunt/(v100) V_MYNAMES suppressing_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE11 vo/combine/grunt/(v100) V_MYNAMES suppressing_02 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE12 vo/combine/grunt/(v100) V_MYNAMES suppressing_03 V_RNDNUMS calloutcode_dash_01 V_RNDNUMS V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE13 vo/combine/grunt/(v100) V_MYNAMES suppressing_04 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE14 vo/combine/grunt/(v100) V_MYNAMES suppressing_05 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE15 vo/combine/grunt/(v100) V_MYNAMES suppressing_06 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+
+// My enemy is close and I can see him
+
+COMBINE_ASSAULT0 vo/combine/grunt/(v100) V_MYNAMES underattack_01 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT1 vo/combine/grunt/(v100) V_MYNAMES underattack_02 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT2 vo/combine/grunt/(v100) V_MYNAMES underattack_03 V_RNDNUMS calloutcode_dash_01 V_RNDNUMS V_MYNUMS {Len 3.6 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT3 vo/combine/grunt/(v100) V_MYNAMES underattack_04 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT4 vo/combine/grunt/(v100) V_MYNAMES underattack_05 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT5 vo/combine/grunt/(v100) V_MYNAMES underattack_06 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT6 vo/combine/grunt/(v100) V_MYNAMES underattack_07 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT7 vo/combine/grunt/(v100) V_MYNAMES underattack_08 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT8 vo/combine/grunt/(v100) V_MYNAMES underattack_09 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT9 vo/combine/grunt/(v100) V_MYNAMES underattack_10 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT10 vo/combine/grunt/(v100) V_MYNAMES underattack_11 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT11 vo/combine/grunt/(v100) V_MYNAMES underattack_12 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+
+// I am moving in
+
+COMBINE_FLANK0 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_01 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Coord}
+COMBINE_FLANK1 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_02 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Coord}
+COMBINE_FLANK2 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_03 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Coord}
+COMBINE_FLANK3 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_04 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Coord}
+COMBINE_FLANK4 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_05 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Coord}
+COMBINE_FLANK5 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_06 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Coord}
+COMBINE_FLANK6 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_07 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Coord}
+COMBINE_FLANK7 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_08 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Coord}
+COMBINE_FLANK8 vo/combine/grunt/(v100) V_MYNAMES 30_00501 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Coord}
+COMBINE_FLANK9 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_10 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Coord}
+COMBINE_FLANK10 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_11 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Coord}
+COMBINE_FLANK11 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_12 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Coord}
+COMBINE_FLANK12 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_13 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Coord}
+COMBINE_FLANK13 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_14 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Coord}
+COMBINE_FLANK14 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_15 V_MYNUMS {Len 3.2 closecaption NPC_Combine.Coord}
+COMBINE_FLANK15 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_16 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Coord}
+COMBINE_FLANK16 vo/combine/grunt/(v100) V_MYNAMES advancing_on_target_17 V_MYNUMS {Len 1.1 closecaption NPC_Combine.Coord}
+COMBINE_FLANK17 vo/combine/grunt/(v100) V_MYNAMES establishinglof_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Coord}
+COMBINE_FLANK18 vo/combine/grunt/(v100) V_MYNAMES establishinglof_02 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Coord}
+COMBINE_FLANK19 vo/combine/grunt/(v100) V_MYNAMES establishinglof_03 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_FLANK20 vo/combine/grunt/(v100) V_MYNAMES establishinglof_04 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_FLANK21 vo/combine/grunt/(v100) V_MYNAMES establishinglof_05 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Coord}
+COMBINE_FLANK22 vo/combine/grunt/(v100) V_MYNAMES establishinglof_06 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Coord}
+COMBINE_FLANK23 vo/combine/grunt/(v100) V_MYNAMES establishinglof_07 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_FLANK24 vo/combine/grunt/(v100) V_MYNAMES establishinglof_08 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Coord}
+COMBINE_FLANK25 vo/combine/grunt/(v100) V_MYNAMES establishinglof_09 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Coord}
+COMBINE_FLANK26 vo/combine/grunt/(v100) V_MYNAMES establishinglof_10 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Coord}
+COMBINE_FLANK27 vo/combine/grunt/(v100) V_MYNAMES establishinglof_11 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_FLANK28 vo/combine/grunt/(v100) V_MYNAMES establishinglof_12 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Coord}
+COMBINE_FLANK29 vo/combine/grunt/(v100) V_MYNAMES establishinglof_13 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Coord}
+COMBINE_FLANK30 vo/combine/grunt/(v100) V_MYNAMES establishinglof_14 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Coord}
+COMBINE_FLANK31 vo/combine/grunt/(v100) V_MYNAMES establishinglof_15 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Coord}
+COMBINE_FLANK32 vo/combine/grunt/(v100) V_MYNAMES establishinglof_17 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_FLANK33 vo/combine/grunt/(v100) V_MYNAMES establishinglof_18 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Coord}
+COMBINE_FLANK34 vo/combine/grunt/(v100) V_MYNAMES establishinglof_19 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Coord}
+
+// I am still alert and pursuing enemy
+
+COMBINE_GO_ALERT0 vo/combine/grunt/(v100) V_MYNAMES firing_150 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT1 vo/combine/grunt/(v100) V_MYNAMES firing_151 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT2 vo/combine/grunt/(v100) V_MYNAMES firing_152 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT3 vo/combine/grunt/(v100) V_MYNAMES firing_160 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT4 vo/combine/grunt/(v100) V_MYNAMES firing_161 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT5 vo/combine/grunt/(v100) V_MYNAMES firing_162 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT6 vo/combine/grunt/(v100) V_MYNAMES firing_200 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT7 vo/combine/grunt/(v100) V_MYNAMES firing_201 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT8 vo/combine/grunt/(v100) V_MYNAMES firing_202 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Coord}
+
+// UNDONE: Nobody has seen enemy in 10 seconds
+
+COMBINE_LOST_LONG0 vo/combine/grunt/(v100) V_MYNAMES taunt_040 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG1 vo/combine/grunt/(v100) V_MYNAMES taunt_041 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG2 vo/combine/grunt/(v100) V_MYNAMES taunt_042 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG3 vo/combine/grunt/(v100) V_MYNAMES taunt_050 V_MYNUMS {Len 3.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG4 vo/combine/grunt/(v100) V_MYNAMES taunt_051 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG5 vo/combine/grunt/(v100) V_MYNAMES taunt_052 V_MYNUMS {Len 3.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG6 vo/combine/grunt/(v100) V_MYNAMES taunt_060 V_MYNUMS {Len 4.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG7 vo/combine/grunt/(v100) V_MYNAMES taunt_061 V_MYNUMS {Len 3.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG8 vo/combine/grunt/(v100) V_MYNAMES taunt_062 V_MYNUMS {Len 4.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG9 vo/combine/grunt/(v100) V_MYNAMES taunt_070 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG10 vo/combine/grunt/(v100) V_MYNAMES taunt_071 V_MYNUMS {Len 3.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG11 vo/combine/grunt/(v100) V_MYNAMES taunt_072 V_MYNUMS {Len 5.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG12 vo/combine/grunt/(v100) V_MYNAMES taunt_080 V_MYNUMS {Len 2.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG13 vo/combine/grunt/(v100) V_MYNAMES taunt_081 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG14 vo/combine/grunt/(v100) V_MYNAMES taunt_082 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG15 vo/combine/grunt/(v100) V_MYNAMES taunt_090 V_MYNUMS {Len 3.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG16 vo/combine/grunt/(v100) V_MYNAMES taunt_091 V_MYNUMS {Len 3.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG17 vo/combine/grunt/(v100) V_MYNAMES taunt_092 V_MYNUMS {Len 3.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG18 vo/combine/grunt/(v100) V_MYNAMES taunt_170 V_MYNUMS {Len 4.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG19 vo/combine/grunt/(v100) V_MYNAMES taunt_171 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG20 vo/combine/grunt/(v100) V_MYNAMES taunt_172 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG21 vo/combine/grunt/(v100) V_MYNAMES taunt_180 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG22 vo/combine/grunt/(v100) V_MYNAMES taunt_181 V_MYNUMS {Len 2.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG23 vo/combine/grunt/(v100) V_MYNAMES taunt_182 V_MYNUMS {Len 3.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG24 vo/combine/grunt/(v100) V_MYNAMES taunt_190 V_MYNUMS {Len 3.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG25 vo/combine/grunt/(v100) V_MYNAMES taunt_191 V_MYNUMS {Len 4.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG26 vo/combine/grunt/(v100) V_MYNAMES taunt_192 V_MYNUMS {Len 4.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG27 vo/combine/grunt/(v100) V_MYNAMES taunt_200 V_MYNUMS {Len 3.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG28 vo/combine/grunt/(v100) V_MYNAMES taunt_201 V_MYNUMS {Len 3.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG29 vo/combine/grunt/(v100) V_MYNAMES taunt_202 V_MYNUMS {Len 3.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG30 vo/combine/grunt/(v100) V_MYNAMES overwatch_01 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG31 vo/combine/grunt/(v100) V_MYNAMES overwatch_02 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG32 vo/combine/grunt/(v100) V_MYNAMES overwatch_03 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG33 vo/combine/grunt/(v100) V_MYNAMES overwatch_04 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG34 vo/combine/grunt/(v100) V_MYNAMES overwatch_05 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG35 vo/combine/grunt/(v100) V_MYNAMES overwatch_06 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG36 vo/combine/grunt/(v100) V_MYNAMES overwatch_07 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG37 vo/combine/grunt/(v100) V_MYNAMES overwatch_08 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG38 vo/combine/grunt/(v100) V_MYNAMES overwatch_09 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG39 vo/combine/grunt/(v100) V_MYNAMES overwatch_10 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG40 vo/combine/grunt/(v100) V_MYNAMES overwatch_11 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG41 vo/combine/grunt/(v100) V_MYNAMES overwatch_12 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG42 vo/combine/grunt/(v100) V_MYNAMES overwatch_13 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG43 vo/combine/grunt/(v100) V_MYNAMES overwatch_14 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG44 vo/combine/grunt/(v100) V_MYNAMES overwatch_15 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG45 vo/combine/grunt/(v100) V_MYNAMES overwatch_16 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG46 vo/combine/grunt/(v100) V_MYNAMES overwatch_17 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG47 vo/combine/grunt/(v100) V_MYNAMES overwatch_18 V_MYNUMS {Len 2.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG48 vo/combine/grunt/(v100) V_MYNAMES overwatch_19 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG49 vo/combine/grunt/(v100) V_MYNAMES overwatch_20 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG50 vo/combine/grunt/(v100) V_MYNAMES 29_00502 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG51 vo/combine/grunt/(v100) V_MYNAMES 29_00503 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG52 vo/combine/grunt/(v100) V_MYNAMES 29_00504 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG53 vo/combine/grunt/(v100) V_MYNAMES 29_00512 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG54 vo/combine/grunt/(v100) 29_00524 {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG55 vo/combine/grunt/(v100) V_MYNAMES 30_00503 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG56 vo/combine/grunt/(v100) V_MYNAMES 30_00504 V_MYNUMS {Len 3.4 closecaption NPC_Combine.RadioChatter}
+
+// UNDONE: Nobody has seen enemy in 5 seconds
+
+COMBINE_LOST_SHORT0 vo/combine/grunt/(v100) V_MYNAMES lostvisual_01 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT1 vo/combine/grunt/(v100) V_MYNAMES lostvisual_02 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT2 vo/combine/grunt/(v100) V_MYNAMES lostvisual_03 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT3 vo/combine/grunt/(v100) V_MYNAMES lostvisual_04 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT4 vo/combine/grunt/(v100) V_MYNAMES lostvisual_05 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT5 vo/combine/grunt/(v100) V_MYNAMES lostvisual_06 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT6 vo/combine/grunt/(v100) V_MYNAMES lostvisual_07 V_RNDNUMS calloutcode_dash_01 V_RNDNUMS V_MYNUMS {Len 3.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT7 vo/combine/grunt/(v100) V_MYNAMES lostvisual_08 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT8 vo/combine/grunt/(v100) V_MYNAMES lostvisual_09 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT9 vo/combine/grunt/(v100) V_MYNAMES lostvisual_10 V_MYNUMS {Len 2.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT10 vo/combine/grunt/(v100) V_MYNAMES lostenemy_01 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT11 vo/combine/grunt/(v100) V_MYNAMES lostenemy_02 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT12 vo/combine/grunt/(v100) V_MYNAMES lostenemy_03 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT13 vo/combine/grunt/(v100) V_MYNAMES lostenemy_04 V_MYNUMS {Len 2.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT14 vo/combine/grunt/(v100) V_MYNAMES lostenemy_05 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT15 vo/combine/grunt/(v100) V_MYNAMES lostenemy_06 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT16 vo/combine/grunt/(v100) V_MYNAMES lostenemy_07 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT17 vo/combine/grunt/(v100) V_MYNAMES lostenemy_08 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT18 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_01 V_MYNUMS {Len 3.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT19 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_02 V_MYNUMS {Len 2.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT20 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_03 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT21 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_04 V_MYNUMS {Len 3.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT22 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_05 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT23 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_06 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT24 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_07 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT25 vo/combine/grunt/(v100) V_MYNAMES lostvisual_player_08 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT26 vo/combine/grunt/(v100) V_MYNAMES reload_01 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT27 vo/combine/grunt/(v100) V_MYNAMES reload_02 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT28 vo/combine/grunt/(v100) V_MYNAMES reload_03 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT29 vo/combine/grunt/(v100) V_MYNAMES reload_04 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT30 vo/combine/grunt/(v100) V_MYNAMES reload_05 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT31 vo/combine/grunt/(v100) V_MYNAMES reload_06 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT32 vo/combine/grunt/(v100) V_MYNAMES reload_07 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT33 vo/combine/grunt/(v100) V_MYNAMES reload_08 V_MYNUMS {Len 2.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT34 vo/combine/grunt/(v100) V_MYNAMES reload_09 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT35 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_01 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT36 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_02 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT37 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_03 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT38 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_04 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT39 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_05 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT40 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_06 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT41 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_07 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT42 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_09 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT43 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_10 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT44 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_11 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT45 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_12 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT46 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_13 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT47 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_14 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT48 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_15 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT49 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_16 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT50 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_17 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT51 vo/combine/grunt/(v100) V_MYNAMES reconnoiter_search_18 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+
+// I just saw a friendly die
+
+COMBINE_MAN_DOWN0 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_01 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN1 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_02 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN2 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_03 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN3 vo/combine/grunt/(v100) V_MYNAMES V_RNDCODES V_RNDNUMS squadmemberlost_04 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN4 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_05 V_MYNUMS {Len 3.5 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN5 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_06 V_MYNUMS {Len 3.7 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN6 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_07 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN7 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_08 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN8 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_09 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN9 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_10 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN10 vo/combine/grunt/(v100) V_MYNAMES V_RNDCODES V_RNDNUMS squadmemberlost_11 V_MYNUMS {Len 3.5 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN11 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_01 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN12 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_02 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN13 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_03 V_MYNUMS {Len 3.5 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN14 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_04 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN15 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_05 V_MYNUMS {Len 3.0 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN16 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_06 V_MYNUMS {Len 3.3 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN17 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_leader_07 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+
+// UNDONE: Just found enemy after lost long
+
+COMBINE_REFIND_ENEMY0 vo/combine/grunt/(v100) V_MYNAMES refindenemy_01 V_RNDNUMS calloutcode_dash_01 V_RNDNUMS V_MYNUMS {Len 3.8 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY1 vo/combine/grunt/(v100) V_MYNAMES refindenemy_02 V_RNDNUMS calloutcode_dash_01 V_RNDNUMS V_MYNUMS {Len 3.1 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY2 vo/combine/grunt/(v100) V_MYNAMES refindenemy_03 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY3 vo/combine/grunt/(v100) V_MYNAMES refindenemy_04 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY4 vo/combine/grunt/(v100) V_MYNAMES refindenemy_05 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY5 vo/combine/grunt/(v100) V_MYNAMES refindenemy_06 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY6 vo/combine/grunt/(v100) V_MYNAMES refindenemy_07 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY7 vo/combine/grunt/(v100) V_MYNAMES refindenemy_08 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY8 vo/combine/grunt/(v100) V_MYNAMES refindenemy_09 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY9 vo/combine/grunt/(v100) V_MYNAMES refindenemy_10 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY10 vo/combine/grunt/(v100) V_MYNAMES refindenemy_11 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY11 vo/combine/grunt/(v100) V_MYNAMES refindenemy_12 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY12 vo/combine/grunt/(v100) V_MYNAMES refindenemy_13 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY13 vo/combine/grunt/(v100) V_MYNAMES refindenemy_14 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY14 vo/combine/grunt/(v100) V_MYNAMES refindenemy_15 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY15 vo/combine/grunt/(v100) V_MYNAMES refindenemy_16 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY16 vo/combine/grunt/(v100) V_MYNAMES refindenemy_17 V_RNDNAMES V_RNDNUMS V_MYNUMS {Len 3.1 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY17 vo/combine/grunt/(v100) V_MYNAMES refindenemy_18 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+
+// I am throwing a grenade
+
+COMBINE_THROW_GRENADE0 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_01 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE1 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_02 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE2 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_03 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE3 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_04 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE4 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_05 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE5 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_06 V_MYNUMS. V_MYNAMES calloutcode_two_01 V_MYNUMS. V_MYNAMES calloutcode_one_01 V_MYNUMS {Len 4.7 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE6 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_07 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE7 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_08 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE8 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_09 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE9 vo/combine/grunt/(v100) V_MYNAMES announceattack_grenade_10 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE10 vo/combine/grunt/(v100) V_MYNAMES flushing_01 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE11 vo/combine/grunt/(v100) V_MYNAMES flushing_02 V_MYNUMS. V_MYNAMES calloutcode_two_01 V_MYNUMS. V_MYNAMES calloutcode_one_01 V_MYNUMS {Len 4.8 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE12 vo/combine/grunt/(v100) V_MYNAMES flushing_03 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE13 vo/combine/grunt/(v100) V_MYNAMES flushing_04 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE14 vo/combine/grunt/(v100) V_MYNAMES flushing_05 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE15 vo/combine/grunt/(v100) V_MYNAMES flushing_06 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE16 vo/combine/grunt/(v100) V_MYNAMES flushing_07 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE17 vo/combine/grunt/(v100) V_MYNAMES getback_01 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE18 vo/combine/grunt/(v100) V_MYNAMES getback_02 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE19 vo/combine/grunt/(v100) V_MYNAMES getback_03 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE20 vo/combine/grunt/(v100) V_MYNAMES getback_04 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE21 vo/combine/grunt/(v100) V_MYNAMES getback_05 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE22 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE23 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_02 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE24 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_03 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE25 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_04 V_MYNUMS. V_MYNAMES calloutcode_two_01 V_MYNUMS. V_MYNAMES calloutcode_one_01 V_MYNUMS {Len 5.5 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE26 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_05 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE27 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_06 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE28 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_07 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE29 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_08 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE30 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_09 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE31 vo/combine/grunt/(v100) V_MYNAMES announceattack_cover_10 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Grenade}
+
+//COMBINE_THROW1 npc/combine_soldier/vo/V_MYNAMES (t30) take!(e75) this!(e100 t0) V_MYNUMS {Len 1.03}
+//COMBINE_THROW2 npc/combine_soldier/vo/(v10) V_MYNAMES(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) V_MYNUMS {Len 1.37}
+
+// Enemy Grenade lands nearby (one man only)
+
+COMBINE_GREN0 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_01 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Grenade}
+COMBINE_GREN1 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_02 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Grenade}
+COMBINE_GREN2 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_03 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Grenade}
+COMBINE_GREN3 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_04 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Grenade}
+COMBINE_GREN4 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_05 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Grenade}
+COMBINE_GREN5 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_06 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Grenade}
+COMBINE_GREN6 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_07 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Grenade}
+COMBINE_GREN7 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_08 V_RNDNUMS V_MYNUMS {Len 2.5 closecaption NPC_Combine.Grenade}
+COMBINE_GREN8 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_09 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Grenade}
+COMBINE_GREN9 vo/combine/grunt/(v100) V_MYNAMES danger_grenade_10 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Grenade}
+COMBINE_GREN10 vo/combine/grunt/(v100) V_MYNAMES sees_grenades_01 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Grenade}
+COMBINE_GREN11 vo/combine/grunt/(v100) V_MYNAMES sees_grenades_02 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Grenade}
+COMBINE_GREN12 vo/combine/grunt/(v100) V_MYNAMES sees_grenades_03 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Grenade}
+COMBINE_GREN13 vo/combine/grunt/(v100) V_MYNAMES sees_grenades_04 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Grenade}
+ 
+// Something dangerous nearby, need to run
+
+COMBINE_DANGER0 vo/combine/grunt/(v100) V_MYNAMES retreat_01 V_MYNUMS {Len 1.4}
+COMBINE_DANGER1 vo/combine/grunt/(v100) V_MYNAMES retreat_02 V_MYNUMS {Len 1.6}
+COMBINE_DANGER2 vo/combine/grunt/(v100) V_MYNAMES retreat_03 V_MYNUMS {Len 2.0}
+COMBINE_DANGER3 vo/combine/grunt/(v100) V_MYNAMES retreat_04 V_MYNUMS {Len 1.4}
+COMBINE_DANGER4 vo/combine/grunt/(v100) V_MYNAMES retreat_05 V_MYNUMS {Len 1.5}
+COMBINE_DANGER5 vo/combine/grunt/(v100) V_MYNAMES retreat_06 V_MYNUMS {Len 1.9}
+COMBINE_DANGER6 vo/combine/grunt/(v100) V_MYNAMES retreat_07 V_MYNUMS {Len 1.5}
+COMBINE_DANGER7 vo/combine/grunt/(v100) V_MYNAMES retreat_08 V_MYNUMS {Len 1.6}
+COMBINE_DANGER8 vo/combine/grunt/(v100) V_MYNAMES retreat_09 V_MYNUMS {Len 1.5}
+COMBINE_DANGER9 vo/combine/grunt/(v100) V_MYNAMES retreat_10 V_MYNUMS {Len 2.6}
+COMBINE_DANGER10 vo/combine/grunt/(v30) V_MYNAMES panting_01 V_MYNUMS {Len 13.1}
+COMBINE_DANGER11 vo/combine/grunt/(v30) V_MYNAMES panting_02 V_MYNUMS {Len 14.3}
+COMBINE_DANGER12 vo/combine/grunt/(v30) V_MYNAMES panting_03 V_MYNUMS {Len 12.0}
+COMBINE_DANGER13 vo/combine/grunt/(v30) V_MYNAMES panting_04 V_MYNUMS {Len 9.7}
+COMBINE_DANGER14 vo/combine/grunt/(v30) V_MYNAMES panting_05 V_MYNUMS {Len 11.0}
+COMBINE_DANGER15 vo/combine/grunt/(v100) V_MYNAMES 29_00500 V_MYNUMS {Len 1.3}
+COMBINE_DANGER16 vo/combine/grunt/(v100) V_MYNAMES 29_00501 V_MYNUMS {Len 1.2}
+COMBINE_DANGER17 vo/combine/grunt/(v100) V_MYNAMES 30_00500 V_MYNUMS {Len 1.7}
+
+// Player Alert - first contact and I'm the squad leader
+
+COMBINE_ALERT0 vo/combine/grunt/(v100) V_MYNAMES firing_120 V_MYNUMS {Len 3.1 closecaption NPC_Combine.Alert}
+COMBINE_ALERT1 vo/combine/grunt/(v100) V_MYNAMES firing_121 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_ALERT2 vo/combine/grunt/(v100) V_MYNAMES firing_122 V_MYNUMS {Len 3.7 closecaption NPC_Combine.Alert}
+COMBINE_ALERT3 vo/combine/grunt/(v100) V_MYNAMES firing_130 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_ALERT4 vo/combine/grunt/(v100) V_MYNAMES firing_131 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_ALERT5 vo/combine/grunt/(v100) V_MYNAMES firing_132 V_MYNUMS {Len 3.1 closecaption NPC_Combine.Alert}
+COMBINE_ALERT6 vo/combine/grunt/(v100) V_MYNAMES firing_140 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT7 vo/combine/grunt/(v100) V_MYNAMES firing_141 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT8 vo/combine/grunt/(v100) V_MYNAMES firing_142 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_ALERT9 vo/combine/grunt/(v100) V_MYNAMES firing_180 V_MYNUMS {Len 3.1 closecaption NPC_Combine.Alert}
+COMBINE_ALERT10 vo/combine/grunt/(v100) V_MYNAMES firing_181 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT11 vo/combine/grunt/(v100) V_MYNAMES firing_182 V_MYNUMS {Len 3.0 closecaption NPC_Combine.Alert}
+COMBINE_ALERT12 vo/combine/grunt/(v100) V_MYNAMES firing_player_01 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Alert}
+COMBINE_ALERT13 vo/combine/grunt/(v100) V_MYNAMES firing_player_04 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_ALERT14 vo/combine/grunt/(v100) V_MYNAMES firing_player_05 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT15 vo/combine/grunt/(v100) V_MYNAMES firing_player_07 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT16 vo/combine/grunt/(v100) V_MYNAMES firing_player_08 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Alert}
+COMBINE_ALERT17 vo/combine/grunt/(v100) V_MYNAMES 29_0007 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT16 vo/combine/grunt/(v100) V_MYNAMES 29_0015 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_ALERT17 vo/combine/grunt/(v100) V_MYNAMES announceattack_alyx_01 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_ALERT18 vo/combine/grunt/(v100) V_MYNAMES announceattack_alyx_02 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_ALERT19 vo/combine/grunt/(v100) V_MYNAMES announceattack_alyx_03 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_ALERT20 vo/combine/grunt/(v100) V_MYNAMES announceattack_alyx_04 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_ALERT21 vo/combine/grunt/(v100) V_MYNAMES announceattack_alyx_10 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+
+// last soldier's hit damaged player significantly
+
+COMBINE_PLAYERHIT0 vo/combine/grunt/(v100) V_MYNAMES playerishurt_01 V_MYNUMS {Len 2.6}
+COMBINE_PLAYERHIT1 vo/combine/grunt/(v100) V_MYNAMES playerishurt_02 V_MYNUMS {Len 1.7}
+COMBINE_PLAYERHIT2 vo/combine/grunt/(v100) V_MYNAMES playerishurt_03 V_MYNUMS {Len 1.9}
+COMBINE_PLAYERHIT3 vo/combine/grunt/(v100) V_MYNAMES playerishurt_04 V_MYNUMS {Len 1.8}
+COMBINE_PLAYERHIT4 vo/combine/grunt/(v100) V_MYNAMES playerishurt_05 V_MYNUMS {Len 2.1}
+COMBINE_PLAYERHIT5 vo/combine/grunt/(v100) V_MYNAMES 30_0026 V_MYNUMS {Len 1.8}
+COMBINE_PLAYERHIT6 vo/combine/grunt/(v100) V_MYNAMES playerishurt_07 V_MYNUMS {Len 2.0}
+COMBINE_PLAYERHIT7 vo/combine/grunt/(v100) V_MYNAMES playerishurt_08 V_MYNUMS {Len 2.7}
+COMBINE_PLAYERHIT8 vo/combine/grunt/(v100) V_MYNAMES playerishurt_09 V_MYNUMS {Len 2.0}
+COMBINE_PLAYERHIT9 vo/combine/grunt/(v100) V_MYNAMES playerishurt_10 V_MYNUMS {Len 2.0}
+COMBINE_PLAYERHIT10 vo/combine/grunt/(v100) V_MYNAMES playerishurt_11 V_MYNUMS {Len 2.6}
+COMBINE_PLAYERHIT11 vo/combine/grunt/(v100) V_MYNAMES playerishurt_12 V_MYNUMS {Len 2.7}
+COMBINE_PLAYERHIT12 vo/combine/grunt/(v100) V_MYNAMES playerishurt_13 V_MYNUMS {Len 1.9}
+COMBINE_PLAYERHIT13 vo/combine/grunt/(v100) V_MYNAMES taunt_010 V_MYNUMS {Len 3.2} 
+COMBINE_PLAYERHIT14 vo/combine/grunt/(v100) V_MYNAMES taunt_011 V_MYNUMS {Len 3.4}
+COMBINE_PLAYERHIT15 vo/combine/grunt/(v100) V_MYNAMES taunt_012 V_MYNUMS {Len 3.2}
+COMBINE_PLAYERHIT16 vo/combine/grunt/(v100) V_MYNAMES taunt_020 V_MYNUMS {Len 2.4}
+COMBINE_PLAYERHIT17 vo/combine/grunt/(v100) V_MYNAMES taunt_021 V_MYNUMS {Len 2.2}
+COMBINE_PLAYERHIT18 vo/combine/grunt/(v100) V_MYNAMES taunt_022 V_MYNUMS {Len 2.2}
+COMBINE_PLAYERHIT19 vo/combine/grunt/(v100) V_MYNAMES taunt_030 V_MYNUMS {Len 3.6}
+COMBINE_PLAYERHIT20 vo/combine/grunt/(v100) V_MYNAMES taunt_031 V_MYNUMS {Len 2.5}
+COMBINE_PLAYERHIT21 vo/combine/grunt/(v100) V_MYNAMES taunt_032 V_MYNUMS {Len 3.2}
+COMBINE_PLAYERHIT22 vo/combine/grunt/(v100) V_MYNAMES taunt_100 V_MYNUMS {Len 3.3}
+COMBINE_PLAYERHIT23 vo/combine/grunt/(v100) V_MYNAMES taunt_101 V_MYNUMS {Len 3.5}
+COMBINE_PLAYERHIT24 vo/combine/grunt/(v100) V_MYNAMES taunt_102 V_MYNUMS {Len 3.5}
+COMBINE_PLAYERHIT25 vo/combine/grunt/(v100) V_MYNAMES taunt_110 V_MYNUMS {Len 3.4}
+COMBINE_PLAYERHIT26 vo/combine/grunt/(v100) V_MYNAMES taunt_111 V_MYNUMS {Len 2.9}
+COMBINE_PLAYERHIT27 vo/combine/grunt/(v100) V_MYNAMES taunt_112 V_MYNUMS {Len 2.8}
+COMBINE_PLAYERHIT28 vo/combine/grunt/(v100) V_MYNAMES taunt_120 V_MYNUMS {Len 2.9}
+COMBINE_PLAYERHIT29 vo/combine/grunt/(v100) V_MYNAMES taunt_121 V_MYNUMS {Len 2.7}
+COMBINE_PLAYERHIT30 vo/combine/grunt/(v100) V_MYNAMES taunt_122 V_MYNUMS {Len 2.7}
+COMBINE_PLAYERHIT31 vo/combine/grunt/(v100) V_MYNAMES taunt_130 V_MYNUMS {Len 3.0}
+COMBINE_PLAYERHIT32 vo/combine/grunt/(v100) V_MYNAMES taunt_131 V_MYNUMS {Len 3.0}
+COMBINE_PLAYERHIT33 vo/combine/grunt/(v100) V_MYNAMES taunt_132 V_MYNUMS {Len 3.4}
+COMBINE_PLAYERHIT34 vo/combine/grunt/(v100) V_MYNAMES taunt_140 V_MYNUMS {Len 3.6}
+COMBINE_PLAYERHIT35 vo/combine/grunt/(v100) V_MYNAMES taunt_141 V_MYNUMS {Len 2.8}
+COMBINE_PLAYERHIT36 vo/combine/grunt/(v100) V_MYNAMES taunt_142 V_MYNUMS {Len 3.5}
+COMBINE_PLAYERHIT37 vo/combine/grunt/(v100) V_MYNAMES taunt_150 V_MYNUMS {Len 1.9}
+COMBINE_PLAYERHIT38 vo/combine/grunt/(v100) V_MYNAMES taunt_151 V_MYNUMS {Len 2.6}
+COMBINE_PLAYERHIT39 vo/combine/grunt/(v100) V_MYNAMES taunt_152 V_MYNUMS {Len 2.7}
+COMBINE_PLAYERHIT40 vo/combine/grunt/(v100) V_MYNAMES taunt_160 V_MYNUMS {Len 2.5}
+COMBINE_PLAYERHIT41 vo/combine/grunt/(v100) V_MYNAMES taunt_161 V_MYNUMS {Len 2.7}
+COMBINE_PLAYERHIT42 vo/combine/grunt/(v100) V_MYNAMES taunt_162 V_MYNUMS {Len 2.6}
+COMBINE_PLAYERHIT43 vo/combine/grunt/(v100) choreo_22_2003 {Len 4.5}
+COMBINE_PLAYERHIT44 vo/combine/grunt/(v100) V_MYNAMES suppressing_07 V_MYNUMS {Len 2.5}
+COMBINE_PLAYERHIT45 vo/combine/grunt/(v100) V_MYNAMES fakeout_responseceasefire_01 V_MYNUMS {Len 2.3}
+COMBINE_PLAYERHIT46 vo/combine/grunt/(v100) V_MYNAMES fakeout_responseceasefire_02 V_MYNUMS {Len 2.8}
+COMBINE_PLAYERHIT47 vo/combine/grunt/(v100) V_MYNAMES fakeout_responseceasefire_03 V_MYNUMS {Len 2.4}
+COMBINE_PLAYERHIT48 vo/combine/grunt/(v100) V_MYNAMES sees_reloading_02 V_MYNUMS {Len 2.4}
+COMBINE_PLAYERHIT49 vo/combine/grunt/(v100) V_MYNAMES sees_reloading_03 V_MYNUMS {Len 1.7}
+COMBINE_PLAYERHIT50 vo/combine/grunt/(v100) V_MYNAMES sees_reloading_04 V_MYNUMS {Len 2.3}
+COMBINE_PLAYERHIT51 vo/combine/grunt/(v100) V_MYNAMES 29_0021 V_MYNUMS {Len 1.8}
+COMBINE_PLAYERHIT52 vo/combine/grunt/(v100) 29_0022 {Len 1.1}
+COMBINE_PLAYERHIT53 vo/combine/grunt/(v100) 29_0001 {Len 4.6}
+COMBINE_PLAYERHIT54 vo/combine/grunt/(v100) 30_0001 {Len 1.3}
+COMBINE_PLAYERHIT55 vo/combine/grunt/(v100) V_MYNAMES 30_0025 V_MYNUMS {Len 1.7}
+
+// Monster Alert - first contact and I'm the squad leader
+
+COMBINE_MONST0 vo/combine/grunt/(v100) V_MYNAMES firing_01 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_MONST1 vo/combine/grunt/(v100) V_MYNAMES firing_02 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST2 vo/combine/grunt/(v100) V_MYNAMES firing_03 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_MONST3 vo/combine/grunt/(v100) V_MYNAMES firing_04 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST4 vo/combine/grunt/(v100) V_MYNAMES firing_05 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Alert}
+COMBINE_MONST5 vo/combine/grunt/(v100) V_MYNAMES firing_06 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_MONST6 vo/combine/grunt/(v100) V_MYNAMES firing_07 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_MONST7 vo/combine/grunt/(v100) V_MYNAMES firing_08 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST8 vo/combine/grunt/(v100) V_MYNAMES firing_09 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MONST9 vo/combine/grunt/(v100) V_MYNAMES firing_10 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST10 vo/combine/grunt/(v100) V_MYNAMES firing_110 V_MYNUMS {Len 3.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST11 vo/combine/grunt/(v100) V_MYNAMES firing_111 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST12 vo/combine/grunt/(v100) V_MYNAMES firing_112 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST13 vo/combine/grunt/(v100) V_MYNAMES firing_170 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST14 vo/combine/grunt/(v100) V_MYNAMES firing_171 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST15 vo/combine/grunt/(v100) V_MYNAMES firing_172 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST16 vo/combine/grunt/(v100) V_MYNAMES firing_190 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST17 vo/combine/grunt/(v100) V_MYNAMES firing_191 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST18 vo/combine/grunt/(v100) V_MYNAMES firing_192 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST19 vo/combine/grunt/(v100) V_MYNAMES firing_210 V_MYNUMS {Len 3.1 closecaption NPC_Combine.Alert}
+COMBINE_MONST20 vo/combine/grunt/(v100) V_MYNAMES firing_211 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST21 vo/combine/grunt/(v100) V_MYNAMES firing_212 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST22 vo/combine/grunt/(v100) V_MYNAMES firing_220 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST23 vo/combine/grunt/(v100) V_MYNAMES firing_221 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST24 vo/combine/grunt/(v100) V_MYNAMES firing_222 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST25 vo/combine/grunt/(v100) V_MYNAMES firing_230 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST26 vo/combine/grunt/(v100) V_MYNAMES firing_231 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST27 vo/combine/grunt/(v100) V_MYNAMES firing_232 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Alert}
+
+// Monster Alert - by type
+
+COMBINE_MONST_BUGS0 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS1 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_02 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS2 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_03 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS3 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_04 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS4 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_05 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS5 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_06 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS6 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_07 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS7 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_08 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS8 vo/combine/grunt/(v100) V_MYNAMES announceenemy_antlion_10 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS9 vo/combine/grunt/(v100) V_MYNAMES calloutentity_antlion_01 V_MYNUMS {Len 1.4 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_CITIZENS0 vo/combine/grunt/(v100) V_MYNAMES sees_company_01 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS1 vo/combine/grunt/(v100) V_MYNAMES sees_company_02 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS2 vo/combine/grunt/(v100) V_MYNAMES sees_company_03 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS3 vo/combine/grunt/(v100) V_MYNAMES sees_company_04 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS4 vo/combine/grunt/(v100) V_MYNAMES sees_company_05 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS5 vo/combine/grunt/(v100) V_MYNAMES calloutentity_anticitizens_01 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS6 vo/combine/grunt/(v100) V_MYNAMES calloutentity_hostiles_01 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_CHARACTER0 vo/combine/grunt/(v100) V_MYNAMES sees_company_01 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER1 vo/combine/grunt/(v100) V_MYNAMES sees_company_02 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER2 vo/combine/grunt/(v100) V_MYNAMES sees_company_03 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER3 vo/combine/grunt/(v100) V_MYNAMES sees_company_04 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER4 vo/combine/grunt/(v100) V_MYNAMES sees_company_05 V_MYNUMS {Len 2.3 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_ZOMBIES0 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_01 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES1 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_02 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES2 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_03 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES3 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_04 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES4 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_05 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES5 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_06 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES6 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_07 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES7 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_08 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES8 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_09 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES9 vo/combine/grunt/(v100) V_MYNAMES announceenemy_zombie_10 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES10 vo/combine/grunt/(v100) V_MYNAMES calloutentity_necrotic_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_PARASITES0 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_01 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES1 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_02 V_RNDNUMS V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES2 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_03 V_MYNUMS {Len 2.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES3 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_04 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES4 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_05 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES5 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_06 V_MYNUMS {Len 1.9 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES6 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_07 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES7 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_08 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES8 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_09 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES9 vo/combine/grunt/(v100) V_MYNAMES announceenemy_headcrabs_10 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES10 vo/combine/grunt/(v100) V_MYNAMES calloutentity_manyparasitics_01 V_MYNUMS {Len 1.8 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES11 vo/combine/grunt/(v100) V_MYNAMES calloutentity_parasitic_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Alert}
+
+// I killed a monster
+
+COMBINE_KILL_MONST0 vo/combine/grunt/(v100) V_MYNAMES announcekill_antlion_02 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST1 vo/combine/grunt/(v100) V_MYNAMES announcekill_antlion_03 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST2 vo/combine/grunt/(v100) V_MYNAMES announcekill_antlion_04 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST3 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_01 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST4 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_02 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST5 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_03 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST6 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_04 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST7 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_05 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST8 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_07 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST9 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_08 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST10 vo/combine/grunt/(v100) V_MYNAMES announcekill_zombie_03 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST11 vo/combine/grunt/(v100) V_MYNAMES announcekill_zombie_04 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST12 vo/combine/grunt/(v100) V_MYNAMES announcekill_zombie_05 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST13 vo/combine/grunt/(v100) V_MYNAMES announcekill_zombie_06 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST14 vo/combine/grunt/(v100) V_MYNAMES announcekill_zombie_07 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST15 vo/combine/grunt/(v100) V_MYNAMES announcekill_01 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST16 vo/combine/grunt/(v100) V_MYNAMES announcekill_02 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST17 vo/combine/grunt/(v100) V_MYNAMES announcekill_03 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST18 vo/combine/grunt/(v100) V_MYNAMES announcekill_04 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST19 vo/combine/grunt/(v100) V_MYNAMES announcekill_05 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST20 vo/combine/grunt/(v100) V_MYNAMES announcekill_06 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST21 vo/combine/grunt/(v100) V_MYNAMES announcekill_07 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST22 vo/combine/grunt/(v100) V_MYNAMES announcekill_08 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST23 vo/combine/grunt/(v100) V_MYNAMES announcekill_09 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST24 vo/combine/grunt/(v100) V_MYNAMES announcekill_headcrab_06 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST25 vo/combine/grunt/(v100) V_MYNAMES announcekill_11 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST26 vo/combine/grunt/(v100) V_MYNAMES announcekill_12 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST27 vo/combine/grunt/(v100) V_MYNAMES announcekill_13 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST28 vo/combine/grunt/(v100) V_MYNAMES announcekill_14 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST29 vo/combine/grunt/(v100) V_MYNAMES announcekill_15 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+
+// I was hit and it hurt. I'm taking cover (commented out in code) || actually not anymore
+
+COMBINE_COVER0 vo/combine/grunt/(v100) V_MYNAMES injured_01 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Coord}
+COMBINE_COVER1 vo/combine/grunt/(v100) V_MYNAMES injured_02 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Coord}
+COMBINE_COVER2 vo/combine/grunt/(v100) V_MYNAMES injured_03 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Coord}
+COMBINE_COVER3 vo/combine/grunt/(v100) V_MYNAMES injured_04 V_MYNUMS {Len 2.4 closecaption NPC_Combine.Coord}
+COMBINE_COVER4 vo/combine/grunt/(v100) V_MYNAMES injured_05 V_MYNUMS {Len 1.7 closecaption NPC_Combine.Coord}
+COMBINE_COVER5 vo/combine/grunt/(v100) V_MYNAMES injured_06 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Coord}
+COMBINE_COVER6 vo/combine/grunt/(v100) V_MYNAMES injured_07 V_MYNUMS {Len 1.3 closecaption NPC_Combine.Coord}
+COMBINE_COVER7 vo/combine/grunt/(v100) V_MYNAMES nearpanic_03 V_MYNUMS {Len 1.6 closecaption NPC_Combine.Coord}
+COMBINE_COVER8 vo/combine/grunt/(v100) V_MYNAMES nearpanic_04 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Coord}
+COMBINE_COVER9 vo/combine/grunt/(v100) V_MYNAMES nearpanic_05 V_MYNUMS {Len 1.5 closecaption NPC_Combine.Coord}
+COMBINE_COVER10 vo/combine/grunt/(v100) V_MYNAMES nearpanic_06 V_MYNUMS {Len 2.2 closecaption NPC_Combine.Coord}
+COMBINE_COVER11 vo/combine/grunt/(v100) V_MYNAMES nearpanic_07 V_MYNUMS {Len 2.0 closecaption NPC_Combine.Coord}
+COMBINE_COVER12 vo/combine/grunt/(v100) V_MYNAMES nearpanic_08 V_MYNUMS {Len 3.7 closecaption NPC_Combine.Coord}
+
+// I took damage but it didn't hurt much (commented out in code) || again, not anymore with 2019 HL2 and GMOD updates
+
+COMBINE_TAUNT0 vo/combine/grunt/(v100) V_MYNAMES coverme_01 V_MYNUMS {Len 1.4}
+COMBINE_TAUNT1 vo/combine/grunt/(v100) V_MYNAMES coverme_02 V_MYNUMS {Len 1.2}
+COMBINE_TAUNT2 vo/combine/grunt/(v100) V_MYNAMES coverme_03 V_MYNUMS {Len 2.1}
+COMBINE_TAUNT3 vo/combine/grunt/(v100) V_MYNAMES coverme_04 V_MYNUMS {Len 1.8}
+COMBINE_TAUNT4 vo/combine/grunt/(v100) V_MYNAMES coverme_05 V_MYNUMS {Len 2.2}
+COMBINE_TAUNT5 vo/combine/grunt/(v100) V_MYNAMES coverme_06 V_MYNUMS {Len 1.8}
+COMBINE_TAUNT6 vo/combine/grunt/(v100) V_MYNAMES coverme_07 V_RNDNAMES V_RNDNUMS V_MYNUMS {Len 2.8}
+COMBINE_TAUNT7 vo/combine/grunt/(v100) V_MYNAMES takingfire_01 V_MYNUMS {Len 2.2}
+COMBINE_TAUNT8 vo/combine/grunt/(v100) V_MYNAMES takingfire_02 V_MYNUMS {Len 1.3}
+COMBINE_TAUNT9 vo/combine/grunt/(v100) V_MYNAMES takingfire_03 V_MYNUMS {Len 2.4}
+COMBINE_TAUNT10 vo/combine/grunt/(v100) V_MYNAMES takingfire_04 V_MYNUMS {Len 1.9}
+COMBINE_TAUNT11 vo/combine/grunt/(v100) V_MYNAMES takingfire_05 V_MYNUMS {Len 1.5}
+COMBINE_TAUNT12 vo/combine/grunt/(v100) V_MYNAMES takingfire_06 V_MYNUMS {Len 2.7}
+COMBINE_TAUNT13 vo/combine/grunt/(v100) V_MYNAMES takingfire_07 V_MYNUMS {Len 2.5}
+COMBINE_TAUNT14 vo/combine/grunt/(v100) V_MYNAMES takingfire_08 V_MYNUMS {Len 1.7}
+COMBINE_TAUNT15 vo/combine/grunt/(v100) V_MYNAMES takingfire_09 V_MYNUMS {Len 2.0}
+COMBINE_TAUNT16 vo/combine/grunt/(v100) V_MYNAMES takingfire_10 V_MYNUMS {Len 2.3}
+COMBINE_TAUNT17 vo/combine/grunt/(v100) V_MYNAMES takingfire_11 V_MYNUMS {Len 2.8}
+COMBINE_TAUNT18 vo/combine/grunt/(v100) V_MYNAMES 29_0014 V_MYNUMS {Len 1.7}
+
+// I'm the last guy in the squad
+
+COMBINE_LAST_OF_SQUAD0 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_01 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD1 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_02 V_MYNUMS {Len 3.4 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD2 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_03 V_MYNUMS {Len 2.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD3 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_04 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD4 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_05 V_MYNUMS {Len 2.8 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD5 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_06 V_MYNUMS {Len 2.6 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD6 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_07 V_MYNUMS {Len 2.1 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD7 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_08 V_MYNUMS {Len 3.2 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD8 vo/combine/grunt/(v100) V_MYNAMES squadmemberlost_lastman_09 V_MYNUMS {Len 2.9 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD9 vo/combine/grunt/(v30) V_MYNAMES breathing_01 V_MYNUMS {Len 24.2 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD10 vo/combine/grunt/(v30) V_MYNAMES breathing_02 V_MYNUMS {Len 13.6 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD11 vo/combine/grunt/(v30) V_MYNAMES breathing_03 V_MYNUMS {Len 14.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD12 vo/combine/grunt/(v30) V_MYNAMES breathing_04 V_MYNUMS {Len 18.0 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD13 vo/combine/grunt/(v30) V_MYNAMES breathing_05 V_MYNUMS {Len 18.0 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD14 vo/combine/grunt/(v100) V_MYNAMES 29_0006 V_MYNUMS {Len 4.5 closecaption NPC_Combine.Last}
+
+// player is dead
+
+COMBINE_PLAYER_DEAD0 vo/combine/grunt/(v100) V_MYNAMES announcekill_player_01 V_MYNUMS {Len 2.7}
+COMBINE_PLAYER_DEAD1 vo/combine/grunt/(v100) V_MYNAMES announcekill_player_02 V_MYNUMS {Len 2.0}
+COMBINE_PLAYER_DEAD2 vo/combine/grunt/(v100) V_MYNAMES announcekill_player_03 V_MYNUMS {Len 1.5}
+COMBINE_PLAYER_DEAD3 vo/combine/grunt/(v100) V_MYNAMES announcekill_player_07 V_MYNUMS {Len 1.2}
+COMBINE_PLAYER_DEAD4 vo/combine/grunt/(v100) V_MYNAMES announcekill_player_08 V_MYNUMS {Len 2.9}
+COMBINE_PLAYER_DEAD5 vo/combine/grunt/(v100) V_MYNAMES fakeout_success_01 V_MYNUMS {Len 1.6}
+COMBINE_PLAYER_DEAD6 vo/combine/grunt/(v100) V_MYNAMES fakeout_success_02 V_MYNUMS {Len 3.1}
+COMBINE_PLAYER_DEAD7 vo/combine/grunt/(v100) V_MYNAMES fakeout_success_03 V_MYNUMS {Len 2.7}
+COMBINE_PLAYER_DEAD8 vo/combine/grunt/(v100) V_MYNAMES laugh_01 V_MYNUMS {Len 1.5}
+COMBINE_PLAYER_DEAD9 vo/combine/grunt/(v100) V_MYNAMES laugh_02 V_MYNUMS {Len 1.7}
+COMBINE_PLAYER_DEAD10 vo/combine/grunt/(v100) V_MYNAMES laugh_03 V_MYNUMS {Len 1.7}
+COMBINE_PLAYER_DEAD11 vo/combine/grunt/(v100) V_MYNAMES laugh_04 V_MYNUMS {Len 2.1}
+COMBINE_PLAYER_DEAD12 vo/combine/grunt/(v100) V_MYNAMES laugh_05 V_MYNUMS {Len 2.2}
+
+// Idle statement - my status, no enemy
+
+COMBINE_IDLE0 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_01 V_MYNUMS {Len 15.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE1 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_02 V_MYNUMS {Len 12.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE2 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_03 V_MYNUMS {Len 13.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE3 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_04 V_MYNUMS {Len 15.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE4 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_05 V_MYNUMS {Len 16.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE5 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_06 V_MYNUMS {Len 15.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE6 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_07 V_MYNUMS {Len 14.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE7 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_08 V_MYNUMS {Len 12.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE8 combine/soldier_common/(v30) V_MYNAMES combine_radio_idle_09 V_MYNUMS {Len 15.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE9 vo/combine/grunt/(v30) V_MYNAMES idle_01 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE10 vo/combine/grunt/(v30) V_MYNAMES idle_02 V_MYNUMS {Len 7.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE11 vo/combine/grunt/(v30) V_MYNAMES idle_03 V_MYNUMS {Len 3.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE12 vo/combine/grunt/(v30) V_MYNAMES idle_04 V_MYNUMS {Len 3.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE13 vo/combine/grunt/(v30) V_MYNAMES idle_05 V_MYNUMS {Len 5.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE14 vo/combine/grunt/(v30) V_MYNAMES idle_06 V_MYNUMS {Len 6.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE15 vo/combine/grunt/(v30) V_MYNAMES idle_07 V_MYNUMS {Len 5.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE16 vo/combine/grunt/(v30) V_MYNAMES idle_08 V_MYNUMS {Len 5.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE17 vo/combine/grunt/(v30) V_MYNAMES idle_09 V_MYNUMS {Len 7.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE18 vo/combine/grunt/(v30) V_MYNAMES idle_10 V_MYNUMS {Len 6.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE19 vo/combine/grunt/(v30) V_MYNAMES idle_11 V_MYNUMS {Len 7.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE20 vo/combine/grunt/(v30) V_MYNAMES idle_12 V_MYNUMS {Len 9.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE21 vo/combine/grunt/(v30) V_MYNAMES idle_13 V_MYNUMS {Len 6.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE22 vo/combine/grunt/(v30) V_MYNAMES idle_14 V_MYNUMS {Len 6.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE23 vo/combine/grunt/(v30) V_MYNAMES idle_15 V_MYNUMS {Len 5.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE24 vo/combine/grunt/(v30) V_MYNAMES idle_16 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE25 vo/combine/grunt/(v30) V_MYNAMES idle_17 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE26 vo/combine/grunt/(v30) V_MYNAMES idle_18 V_MYNUMS {Len 8.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE27 vo/combine/grunt/(v30) V_MYNAMES idle_19 V_MYNUMS {Len 9.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE28 vo/combine/grunt/(v30) V_MYNAMES idle_20 V_MYNUMS {Len 8.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE29 vo/combine/grunt/(v30) V_MYNAMES 30_0016 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE30 vo/combine/grunt/(v30) V_MYNAMES 30_00524 V_MYNUMS {Len 3.6 closecaption NPC_Combine.RadioChatter}
+
+// I'm asking a question while idle, which may be answered with affirmative
+
+COMBINE_QUEST0 vo/combine/grunt/(v30) V_MYNAMES hear_suspicious_01 V_RNDNUMS calloutcode_and_01 V_RNDNUMS V_MYNUMS {Len 3.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST1 vo/combine/grunt/(v30) V_MYNAMES hear_suspicious_02 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST2 vo/combine/grunt/(v30) V_MYNAMES hear_suspicious_03 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST3 vo/combine/grunt/(v30) V_MYNAMES hear_suspicious_04 V_MYNUMS {Len 1.3 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST4 vo/combine/grunt/(v30) V_MYNAMES hear_suspicious_05 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST5 vo/combine/grunt/(v30) V_MYNAMES hear_suspicious_06 V_MYNUMS {Len 2.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST6 vo/combine/grunt/(v30) V_MYNAMES combat_idle_040 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST7 vo/combine/grunt/(v30) V_MYNAMES combat_idle_041 V_MYNUMS {Len 2.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST8 vo/combine/grunt/(v30) V_MYNAMES combat_idle_042 V_MYNUMS {Len 2.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST9 vo/combine/grunt/(v30) V_MYNAMES combat_idle_070 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST10 vo/combine/grunt/(v30) V_MYNAMES combat_idle_071 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST11 vo/combine/grunt/(v30) V_MYNAMES combat_idle_072 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST12 vo/combine/grunt/(v30) V_MYNAMES combat_idle_110 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST13 vo/combine/grunt/(v30) V_MYNAMES combat_idle_111 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST14 vo/combine/grunt/(v30) V_MYNAMES combat_idle_112 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST15 vo/combine/grunt/(v30) V_MYNAMES combat_idle_120 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST16 vo/combine/grunt/(v30) V_MYNAMES combat_idle_121 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST17 vo/combine/grunt/(v30) V_MYNAMES combat_idle_122 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST18 vo/combine/grunt/(v30) V_MYNAMES combat_idle_130 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST19 vo/combine/grunt/(v30) V_MYNAMES combat_idle_131 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST20 vo/combine/grunt/(v30) V_MYNAMES combat_idle_132 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST21 vo/combine/grunt/(v30) V_MYNAMES combat_idle_150 V_MYNUMS {Len 2.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST22 vo/combine/grunt/(v30) V_MYNAMES combat_idle_151 V_MYNUMS {Len 2.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST23 vo/combine/grunt/(v30) V_MYNAMES combat_idle_152 V_MYNUMS {Len 2.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST24 vo/combine/grunt/(v30) V_MYNAMES combat_idle_170 V_MYNUMS {Len 2.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST25 vo/combine/grunt/(v30) V_MYNAMES combat_idle_171 V_MYNUMS {Len 2.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST26 vo/combine/grunt/(v30) V_MYNAMES combat_idle_172 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+
+// Answering affirmative
+
+COMBINE_ANSWER0 vo/combine/grunt/(v30) V_MYNAMES orderresponse_positive_01 V_MYNUMS {Len 1.3}
+COMBINE_ANSWER1 vo/combine/grunt/(v30) V_MYNAMES orderresponse_positive_02 V_MYNUMS {Len 1.3}
+COMBINE_ANSWER2 vo/combine/grunt/(v30) V_MYNAMES orderresponse_positive_03 V_MYNUMS {Len 1.4}
+COMBINE_ANSWER3 vo/combine/grunt/(v30) V_MYNAMES orderresponse_positive_04 V_MYNUMS {Len 1.3}
+COMBINE_ANSWER4 vo/combine/grunt/(v30) V_MYNAMES orderresponse_positive_05 V_MYNUMS {Len 1.5}
+COMBINE_ANSWER5 vo/combine/grunt/(v30) V_MYNAMES orderresponse_positive_06 V_MYNUMS {Len 1.5}
+COMBINE_ANSWER6 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_01 V_MYNUMS {Len 1.4}
+COMBINE_ANSWER7 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_02 V_MYNUMS {Len 2.4}
+COMBINE_ANSWER8 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_03 V_MYNUMS {Len 1.5}
+COMBINE_ANSWER9 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_04 V_MYNUMS {Len 1.4}
+COMBINE_ANSWER10 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_05 V_MYNUMS {Len 1.3}
+COMBINE_ANSWER11 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_06 V_MYNUMS {Len 1.7}
+COMBINE_ANSWER12 vo/combine/grunt/(v30) V_MYNAMES unabletocommence_07 V_MYNUMS {Len 1.5}
+COMBINE_ANSWER13 vo/combine/grunt/(v30) V_MYNAMES combat_idle_020 V_MYNUMS {Len 2.6}
+COMBINE_ANSWER14 vo/combine/grunt/(v30) V_MYNAMES combat_idle_021 V_MYNUMS {Len 2.5}
+COMBINE_ANSWER15 vo/combine/grunt/(v30) V_MYNAMES combat_idle_022 V_MYNUMS {Len 2.6}
+COMBINE_ANSWER16 vo/combine/grunt/(v30) V_MYNAMES combat_idle_030 V_MYNUMS {Len 2.9}
+COMBINE_ANSWER17 vo/combine/grunt/(v30) V_MYNAMES combat_idle_031 V_MYNUMS {Len 2.7}
+COMBINE_ANSWER18 vo/combine/grunt/(v30) V_MYNAMES combat_idle_032 V_MYNUMS {Len 4.4}
+COMBINE_ANSWER19 vo/combine/grunt/(v30) V_MYNAMES combat_idle_050 V_MYNUMS {Len 2.4}
+COMBINE_ANSWER20 vo/combine/grunt/(v30) V_MYNAMES combat_idle_051 V_MYNUMS {Len 2.5}
+COMBINE_ANSWER21 vo/combine/grunt/(v30) V_MYNAMES combat_idle_052 V_MYNUMS {Len 2.4}
+COMBINE_ANSWER22 vo/combine/grunt/(v30) V_MYNAMES combat_idle_060 V_MYNUMS {Len 2.4}
+COMBINE_ANSWER23 vo/combine/grunt/(v30) V_MYNAMES combat_idle_061 V_MYNUMS {Len 2.6}
+COMBINE_ANSWER24 vo/combine/grunt/(v30) V_MYNAMES combat_idle_062 V_MYNUMS {Len 2.4}
+COMBINE_ANSWER25 vo/combine/grunt/(v30) V_MYNAMES combat_idle_080 V_MYNUMS {Len 3.1}
+COMBINE_ANSWER26 vo/combine/grunt/(v30) V_MYNAMES combat_idle_081 V_MYNUMS {Len 3.2}
+COMBINE_ANSWER27 vo/combine/grunt/(v30) V_MYNAMES combat_idle_082 V_MYNUMS {Len 2.1}
+COMBINE_ANSWER28 vo/combine/grunt/(v30) V_MYNAMES combat_idle_090 V_MYNUMS {Len 1.7}
+COMBINE_ANSWER29 vo/combine/grunt/(v30) V_MYNAMES combat_idle_091 V_MYNUMS {Len 1.6}
+COMBINE_ANSWER30 vo/combine/grunt/(v30) V_MYNAMES combat_idle_092 V_MYNUMS {Len 1.6}
+COMBINE_ANSWER31 vo/combine/grunt/(v30) V_MYNAMES combat_idle_100 V_MYNUMS {Len 3.5}
+COMBINE_ANSWER32 vo/combine/grunt/(v30) V_MYNAMES combat_idle_101 V_MYNUMS {Len 3.4}
+COMBINE_ANSWER33 vo/combine/grunt/(v30) V_MYNAMES combat_idle_102 V_MYNUMS {Len 3.3}
+COMBINE_ANSWER34 vo/combine/grunt/(v30) V_MYNAMES combat_idle_160 V_MYNUMS {Len 2.6}
+COMBINE_ANSWER35 vo/combine/grunt/(v30) V_MYNAMES combat_idle_161 V_MYNUMS {Len 2.5}
+COMBINE_ANSWER36 vo/combine/grunt/(v30) V_MYNAMES combat_idle_162 V_MYNUMS {Len 2.5}
+COMBINE_ANSWER37 vo/combine/grunt/(v30) V_MYNAMES combat_idle_190 V_MYNUMS {Len 2.2}
+COMBINE_ANSWER38 vo/combine/grunt/(v30) V_MYNAMES combat_idle_191 V_MYNUMS {Len 2.2}
+COMBINE_ANSWER39 vo/combine/grunt/(v30) V_MYNAMES combat_idle_192 V_MYNUMS {Len 2.2}
+COMBINE_ANSWER40 vo/combine/grunt/(v30) V_MYNAMES combat_idle_200 V_MYNUMS {Len 2.3}
+COMBINE_ANSWER41 vo/combine/grunt/(v30) V_MYNAMES combat_idle_201 V_MYNUMS {Len 2.2}
+COMBINE_ANSWER42 vo/combine/grunt/(v30) V_MYNAMES combat_idle_202 V_MYNUMS {Len 2.1}
+COMBINE_ANSWER43 vo/combine/grunt/(v30) V_MYNAMES 30_0010 V_MYNUMS {Len 1.4}
+COMBINE_ANSWER44 vo/combine/grunt/(v30) V_MYNAMES 30_0011 V_MYNUMS {Len 1.5}
+COMBINE_ANSWER45 vo/combine/grunt/(v30) V_MYNAMES 30_0020 V_MYNUMS {Len 1.3}
+COMBINE_ANSWER46 vo/combine/grunt/(v30) V_MYNAMES 30_0006 V_MYNUMS {Len 2.1}
+
+// Answering all clear
+
+COMBINE_CLEAR0 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_01 V_MYNUMS {Len 1.9}
+COMBINE_CLEAR1 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_02 V_MYNUMS {Len 1.8}
+COMBINE_CLEAR2 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_03 V_MYNUMS {Len 1.7}
+COMBINE_CLEAR3 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_04 V_MYNUMS {Len 1.6}
+COMBINE_CLEAR4 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_05 V_MYNUMS {Len 1.9}
+COMBINE_CLEAR5 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_06 V_MYNUMS {Len 1.6}
+COMBINE_CLEAR6 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_07 V_MYNUMS {Len 1.6}
+COMBINE_CLEAR7 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_08 V_MYNUMS {Len 1.5}
+COMBINE_CLEAR8 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_09 V_MYNUMS {Len 2.3}
+COMBINE_CLEAR9 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_10 V_MYNUMS {Len 1.5}
+COMBINE_CLEAR10 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_11 V_MYNUMS {Len 1.5}
+COMBINE_CLEAR11 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_12 V_MYNUMS {Len 3.0}
+COMBINE_CLEAR12 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_13 V_MYNUMS {Len 1.9}
+COMBINE_CLEAR13 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_14 V_MYNUMS {Len 1.2}
+COMBINE_CLEAR14 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_15 V_MYNUMS {Len 1.6}
+COMBINE_CLEAR15 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_16 V_MYNUMS {Len 2.5}
+COMBINE_CLEAR16 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_17 V_MYNUMS {Len 2.9}
+COMBINE_CLEAR17 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_18 V_MYNUMS {Len 1.3}
+COMBINE_CLEAR18 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_19 V_MYNUMS {Len 2.6}
+COMBINE_CLEAR19 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_finish_20 V_MYNUMS {Len 2.3}
+COMBINE_CLEAR20 vo/combine/grunt/(v30) V_MYNAMES combat_idle_060 V_MYNUMS {Len 2.4}
+COMBINE_CLEAR21 vo/combine/grunt/(v30) V_MYNAMES combat_idle_061 V_MYNUMS {Len 2.6}
+COMBINE_CLEAR22 vo/combine/grunt/(v30) V_MYNAMES combat_idle_062 V_MYNUMS {Len 2.4}
+COMBINE_CLEAR23 vo/combine/grunt/(v30) V_MYNAMES choreo_22_2002 V_MYNUMS {Len 3.9}
+
+// Questioning if all clear
+
+COMBINE_CHECK0 vo/combine/grunt/(v30) V_MYNAMES combat_idle_010 V_MYNUMS {Len 3.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK1 vo/combine/grunt/(v30) V_MYNAMES combat_idle_012 V_MYNUMS {Len 4.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK2 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_01 V_MYNUMS {Len 1.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK3 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_02 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK4 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_03 V_MYNUMS {Len 1.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK5 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_04 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK6 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_05 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK7 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_06 V_MYNUMS {Len 1.8 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK8 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_07 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK9 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_08 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK10 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_09 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK11 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_10 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK12 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_11 V_MYNUMS {Len 1.4 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK13 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_12 V_MYNUMS {Len 1.7 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK14 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_13 V_MYNUMS {Len 2.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK15 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_14 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK16 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_15 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK17 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_16 V_MYNUMS {Len 1.9 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK18 vo/combine/grunt/(v30) V_MYNAMES reconnoiter_start_17 V_MYNUMS {Len 2.2 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK19 vo/combine/grunt/(v30) V_MYNAMES combat_idle_140 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK20 vo/combine/grunt/(v30) V_MYNAMES combat_idle_141 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK21 vo/combine/grunt/(v30) V_MYNAMES combat_idle_142 V_MYNUMS {Len 2.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK22 vo/combine/grunt/(v30) V_MYNAMES combat_idle_180 V_MYNUMS {Len 2.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK23 vo/combine/grunt/(v30) V_MYNAMES combat_idle_181 V_MYNUMS {Len 2.6 closecaption NPC_Combine.RadioChatter}
+COMBINE_CHECK24 vo/combine/grunt/(v30) V_MYNAMES combat_idle_182 V_MYNUMS {Len 2.5 closecaption NPC_Combine.RadioChatter}
+
+//-----------------------------------------------------------------------------
+// METROPOLICE STARTS HERE
+//-----------------------------------------------------------------------------
+
+// hl2 map names - 24 names max
+
+V_MAPNAME0 default
+V_MAPNAME1 trainstation
+V_MAPNAME2 canals
+V_MAPNAME3 eli
+V_MAPNAME4 town
+V_MAPNAME5 coast
+V_MAPNAME6 prison
+V_MAPNAME7 c17
+V_MAPNAME8 citadel
+
+// _MAP__ substring in word in sentence is replaced with _MAPxx where xx is mapnumber
+
+// location prefix by mapname (remembered) (duplicated for metropolice and overwatch)
+
+// map 0 default
+V_G1_LOCATION_MAP00P0 block
+V_G1_LOCATION_MAP00P1 zone
+V_G1_LOCATION_MAP00P2 sector
+
+// map 1 trainstation
+V_G1_LOCATION_MAP01P0 stationblock
+V_G1_LOCATION_MAP01P1 transitblock
+V_G1_LOCATION_MAP01P2 workforceintake
+
+// map 2 canals
+V_G1_LOCATION_MAP02P0 canalblock
+V_G1_LOCATION_MAP02P1 stormsystem
+V_G1_LOCATION_MAP02P2 wasteriver
+V_G1_LOCATION_MAP02P3 deservicedarea
+
+// map 3 eli
+V_G1_LOCATION_MAP03P0 industrialzone
+V_G1_LOCATION_MAP03P1 restrictedblock
+V_G1_LOCATION_MAP03P2 repurposedarea
+
+// map 4 town
+V_G1_LOCATION_MAP04P0 condemnedzone
+V_G1_LOCATION_MAP04P1 infestedzone
+V_G1_LOCATION_MAP04P2 nonpatrolregion
+
+// map 5 coast
+V_G1_LOCATION_MAP05P0 externaljurisdiction
+V_G1_LOCATION_MAP05P1 stabilizationjurisdiction
+V_G1_LOCATION_MAP05P2 outlandzone
+
+// map 6 prison
+V_G1_LOCATION_MAP06P0 externaljurisdiction
+V_G1_LOCATION_MAP06P1 stabilizationjurisdiction
+
+// map 7 c17
+V_G1_LOCATION_MAP07P0 residentialblock
+V_G1_LOCATION_MAP07P1 404zone
+V_G1_LOCATION_MAP07P2 distributionblock
+V_G1_LOCATION_MAP07P3 productionblock
+ 
+// map 8 citadel
+V_G1_LOCATION_MAP08P0 highpriorityregion
+V_G1_LOCATION_MAP08P1 terminalrestrictionzone
+V_G1_LOCATION_MAP08P2 controlsection
+
+
+
+// player names by mapname (remembered) (duplicated for metropolice and overwatch)
+
+V_G2_SUSPECT_MAP00P0 subject
+
+V_G2_SUSPECT_MAP01P0 citizen
+V_G2_SUSPECT_MAP01P1 UPI
+V_G2_SUSPECT_MAP01P2 subject
+
+V_G2_SUSPECT_MAP02P0 subject
+V_G2_SUSPECT_MAP02P1 noncitizen
+V_G2_SUSPECT_MAP02P2 sociocide
+V_G2_SUSPECT_MAP02P3 anticitizen
+
+V_G2_SUSPECT_MAP03P0 anticitizen
+V_G2_SUSPECT_MAP03P1 subject
+
+V_G2_SUSPECT_MAP04P0 freeman
+V_G2_SUSPECT_MAP04P1 subject
+V_G2_SUSPECT_MAP04P2 anticitizen
+
+V_G2_SUSPECT_MAP05P0 freeman
+V_G2_SUSPECT_MAP05P1 sociocide
+
+V_G2_SUSPECT_MAP06P0 freeman
+V_G2_SUSPECT_MAP06P1 infection
+
+V_G2_SUSPECT_MAP07P0 freeman
+
+V_G2_SUSPECT_MAP08P0 freeman
+
+// rnd address suffix (remembered) (duplicated for metropolice and overwatch)
+
+V_G3_NUMBP0 zero 
+V_G3_NUMBP1 one
+V_G3_NUMBP2 two
+V_G3_NUMBP3 three
+V_G3_NUMBP4 four
+V_G3_NUMBP5 five
+V_G3_NUMBP6 six
+V_G3_NUMBP7 seven
+V_G3_NUMBP8 eight
+V_G3_NUMBP9 nine
+
+
+// sequential global numbers, used for counting enemies down (duplicated for metropolice and overwatch)
+
+V_SEQG0_NBRP0 one {Len 0.4}
+V_SEQG0_NBRP1 two {Len 0.4}
+V_SEQG0_NBRP2 three {Len 0.4}
+V_SEQG0_NBRP3 four {Len 0.4}
+V_SEQG0_NBRP4 five {Len 0.4}
+V_SEQG0_NBRP5 six {Len 0.4}
+V_SEQG0_NBRP6 seven {Len 0.4}
+V_SEQG0_NBRP7 eight {Len 0.4}
+V_SEQG0_NBRP8 nine {Len 0.4}
+V_SEQG0_NBRP9 ten {Len 0.4}
+V_SEQG0_NBRP10 eleven {Len 0.4}
+V_SEQG0_NBRP11 twelve {Len 0.4}
+V_SEQG0_NBRP12 thirteen {Len 0.4}
+V_SEQG0_NBRP13 fourteen {Len 0.4}
+V_SEQG0_NBRP14 fifteen {Len 0.4}
+V_SEQG0_NBRP15 sixteen {Len 0.4}
+V_SEQG0_NBRP16 seventeen {Len 0.4}
+V_SEQG0_NBRP17 eighteen {Len 0.4}
+V_SEQG0_NBRP18 nineteen {Len 0.4}
+V_SEQG0_NBRP19 twenty {Len 0.4}
+
+// numbers, must be in order (duplicated for metropolice and overwatch)
+
+V_NUMBERSP0 zero {Len 0.4}
+V_NUMBERSP1 one {Len 0.4}
+V_NUMBERSP2 two {Len 0.4}
+V_NUMBERSP3 three {Len 0.4}
+V_NUMBERSP4 four {Len 0.4}
+V_NUMBERSP5 five {Len 0.4}
+V_NUMBERSP6 six {Len 0.4}
+V_NUMBERSP7 seven {Len 0.4}
+V_NUMBERSP8 eight {Len 0.4}
+V_NUMBERSP9 nine {Len 0.4}
+V_NUMBERSP10 ten {Len 0.4}
+V_NUMBERSP11 eleven {Len 0.4}
+V_NUMBERSP12 twelve {Len 0.4}
+V_NUMBERSP13 thirteen {Len 0.4}
+V_NUMBERSP14 fourteen {Len 0.4}
+V_NUMBERSP15 fifteen {Len 0.4}
+V_NUMBERSP16 sixteen {Len 0.4}
+V_NUMBERSP17 seventeen {Len 0.4}
+V_NUMBERSP18 eighteen {Len 0.4}
+V_NUMBERSP19 nineteen {Len 0.4}
+V_NUMBERSP20 twenty {Len 0.4}
+V_NUMBERSP21 thirty {Len 0.4}
+V_NUMBERSP22 fourty {Len 0.4}
+V_NUMBERSP23 fifty {Len 0.4}
+V_NUMBERSP24 sixty {Len 0.4}
+V_NUMBERSP25 seventy {Len 0.4}
+V_NUMBERSP26 eighty {Len 0.4}
+V_NUMBERSP27 ninety {Len 0.4}
+V_NUMBERSP28 onehundred {Len 0.4}
+V_NUMBERSP29 twohundred {Len 0.4}
+V_NUMBERSP30 threehundred {Len 0.4}
+
+// random codes, player is criminal (duplicated for metropolice and overwatch)
+
+V_RNDCODECRIM_P0 criminaltrespass63
+V_RNDCODECRIM_P1 nonsanctionedarson51
+V_RNDCODECRIM_P2 posession69
+V_RNDCODECRIM_P3 publicnoncompliance507
+V_RNDCODECRIM_P4 recklessoperation99
+V_RNDCODECRIM_P5 resistingpacification148
+V_RNDCODECRIM_P6 riot404
+V_RNDCODECRIM_P7 fugitive17f
+V_RNDCODECRIM_P8 weapon94
+V_RNDCODECRIM_P9 alarms62
+V_RNDCODECRIM_P10 assault243
+V_RNDCODECRIM_P11 illegalcarrying95
+V_RNDCODECRIM_P12 unlawfulentry603
+
+// random codes, player is not criminal (duplicated for metropolice and overwatch)
+
+V_RNDCODEPLR_P0 attemptedcrime27
+V_RNDCODEPLR_P1 disengaged647e
+V_RNDCODEPLR_P2 disturbingunity415
+V_RNDCODEPLR_P3 disturbancemental10-103m
+V_RNDCODEPLR_P4 illegalinoperation63s
+V_RNDCODEPLR_P5 threattoproperty51b
+
+// random action codes (duplicated for metropolice and overwatch)
+
+V_RNDACTP0 pressure
+V_RNDACTP1 document
+V_RNDACTP2 restrict
+V_RNDACTP3 intercede
+V_RNDACTP4 preserve
+V_RNDACTP5 search
+V_RNDACTP6 suspend
+V_RNDACTP7 investigate
+V_RNDACTP8 interlock
+V_RNDACTP9 isolate
+V_RNDACTP10 administer
+V_RNDACTP11 cauterize
+V_RNDACTP12 inject
+V_RNDACTP13 innoculate
+V_RNDACTP14 examine
+V_RNDACTP15 apply
+V_RNDACTP16 prosecute
+V_RNDACTP17 serve
+V_RNDACTP18 sterilize
+V_RNDACTP19 amputate
+V_RNDACTP20 lock
+
+
+// random number
+V_RNDNUMP0 zero {Len 0.4}
+V_RNDNUMP1 one {Len 0.4}
+V_RNDNUMP2 two {Len 0.4}
+V_RNDNUMP3 three {Len 0.4}
+V_RNDNUMP4 four {Len 0.4}
+V_RNDNUMP5 five {Len 0.4}
+V_RNDNUMP6 six {Len 0.4}
+V_RNDNUMP7 seven {Len 0.4}
+V_RNDNUMP8 eight {Len 0.4}
+V_RNDNUMP9 nine {Len 0.4}
+
+// unit names, remembered by speaker  (duplicated for metropolice and overwatch)
+
+V_MYNAMEP0 defender 
+V_MYNAMEP1 hero 
+V_MYNAMEP2 jury 
+V_MYNAMEP3 king 
+V_MYNAMEP4 line 
+V_MYNAMEP5 patrol 
+V_MYNAMEP6 quick 
+V_MYNAMEP7 roller 
+V_MYNAMEP8 stick 
+V_MYNAMEP9 tap 
+V_MYNAMEP10 union 
+V_MYNAMEP11 victor 
+V_MYNAMEP12 xray 
+V_MYNAMEP13 yellow 
+V_MYNAMEP14 vice
+
+
+// unit numbers, remembered by speaker: (duplicated for metropolice and overwatch)
+
+V_MYNUMP0 one
+V_MYNUMP1 two
+V_MYNUMP2 three
+V_MYNUMP3 four
+V_MYNUMP4 five
+V_MYNUMP5 six
+V_MYNUMP6 seven
+V_MYNUMP7 eight
+V_MYNUMP8 nine
+//V_MYNUMP9 15w40 
+//V_MYNUMP10 15w3
+//V_MYNUMP11 15r9
+//V_MYNUMP12 15l30
+//V_MYNUMP13 15w2
+//V_MYNUMP14 13x2
+//V_MYNUMP15 11x25
+//V_MYNUMP16 9l14
+//V_MYNUMP17 6r3
+
+//
+// Death sounds
+
+METROPOLICE_DIE0 npc/overwatch/radiovoice/(v80) die1 on3 unitdownat V_G1_LOCATION_MAP__P V_G3_NUMBP allteamsrespondcode3 V_IDIEDP off2 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE1 npc/overwatch/radiovoice/(v80) die2 on3 unitdownat V_G1_LOCATION_MAP__P V_G3_NUMBP V_IDIEDP off2 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE2 npc/overwatch/radiovoice/(v80) die3 on3 lostbiosignalforunit V_MYNAMEP V_MYNUMP V_IDIEDP off2 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE3 npc/overwatch/radiovoice/(v80) die1 on3 V_MYNAMEP V_MYNUMP unitdeserviced, remainingunitscontain V_IDIEDP off2 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE4 npc/overwatch/radiovoice/(v80) die2 on3 V_MYNAMEP V_MYNUMP unitdownat V_G1_LOCATION_MAP__P V_G3_NUMBP V_IDIEDP off2 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE5 npc/overwatch/radiovoice/(v80) die1 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE6 npc/overwatch/radiovoice/(v80) die2 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE7 npc/overwatch/radiovoice/(v80) die3 {Len 1.5 closecaption NPC_Combine.Death}
+METROPOLICE_DIE8 npc/overwatch/radiovoice/(v80) die1 {Len 1.5 closecaption NPC_Combine.Death}
+//
+// Alert sounds (unused currently) - see monst_player
+//
+METROPOLICE_GO_ALERT0 npc/metropolice/vo/(v100) on1 designatesuspectas V_G2_SUSPECT_MAP__P allunitscode2 off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT1 npc/metropolice/vo/(v100) on2 thereheis V_DISTP meters off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT2 npc/metropolice/vo/(v100) on2 contactwith243suspect, V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT3 npc/metropolice/vo/(v100) on1 allunitsrespondcode3 off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+// location-specific alert sounds (unused currently)
+
+METROPOLICE_CANAL_ALERT0 npc/metropolice/vo/(v100) on1 suspectinstormrunoff V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_UPTHERE_ALERT0 npc/metropolice/vo/(v100) on1 hesupthere off4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_WATER_ALERT0 npc/metropolice/vo/(v100) on1 suspectusingrestrictedcanals V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// Pain sounds
+//
+METROPOLICE_PAIN0 npc/metropolice/(v60) pain1 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN1 npc/metropolice/(v60) pain2 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN2 npc/metropolice/(v60) pain3 {Len 0.26 closecaption NPC_Combine.Pain}
+
+// Pain sounds (I'm still over 90% health, used only once)
+
+METROPOLICE_PAIN_LIGHT0 npc/metropolice/vo/(v100) on1 minorhitscontinuing off1 {Len 1.5 closecaption NPC_Combine.Pain}
+//METROPOLICE_PAIN_LIGHT1 npc/metropolice/vo/(v100) on1 V_MYNAMEP V_MYNUMP is10-108 off1 {Len 1.5 closecaption NPC_Combine.Pain}
+
+
+// Pain sounds (I'm under 25% health for the first time, used only once)
+
+
+METROPOLICE_PAIN_HEAVY0 npc/metropolice/vo/(v90) on1 11-99officerneedsassistance off1 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY1 npc/metropolice/vo/(v90) on1 officerneedshelp off1 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY2 npc/metropolice/vo/(v90) on1 dispatchIneed10-78 off4 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY3 npc/metropolice/vo/(v90) on1 officerneedsassistance off4 {Len 1.5 closecaption NPC_Combine.Pain}
+//METROPOLICE_PAIN_HEAVY3 npc/metropolice/vo/(v100) on1 V_MYNAMEP needsmedical11-99 off1 {Len 1.5 closecaption NPC_Combine.Pain}
+
+
+//
+// Idle sounds (precriminal)
+//
+
+// Simple idle sound, always used when not in squad, sometimes used when in squad
+METROPOLICE_IDLE0 npc/metropolice/vo/(v50) on1 unitis10-8standingby off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE1 npc/metropolice/vo/(v50) on2 unitisonduty10-8 off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE2 npc/metropolice/vo/(v50) on1 holdingon10-14duty off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE3 npc/metropolice/vo/(v50) on2 unitis10-65 off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE4 npc/metropolice/vo/(v50) on1 code7 off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE5 npc/overwatch/radiovoice/(v50) on3 V_RNDCODEPLR_P inprogress, respond off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE6 npc/overwatch/radiovoice/(v50) on3 airwatchcopiesnoactivity V_G1_LOCATION_MAP__P V_G3_NUMBP off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE7 npc/overwatch/radiovoice/(v50) on3 V_RNDACTP V_RNDNUMP V_RNDACTP off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Check with squadmates
+METROPOLICE_IDLE_CHECK0 npc/metropolice/vo/(v50) on1 V_G1_LOCATION_MAP__P V_G3_NUMBP ptatlocationreport off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK1 npc/metropolice/vo/(v50) on2 anyonepickup647e off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK2 npc/metropolice/vo/(v50) on2 stillgetting647e off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK3 npc/overwatch/radiovoice/(v50) on3 teamsreportstatus off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+
+// Response to the check with squadmates
+METROPOLICE_IDLE_CLEAR0 npc/metropolice/vo/(v50) on1 clearno647no10-107 off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR1 npc/metropolice/vo/(v50) on2 wearesociostablethislocation off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR2 npc/metropolice/vo/(v50) on1 blockisholdingcohesive off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR3 npc/metropolice/vo/(v50) on2 control100percent off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Ask a question to squadmates
+METROPOLICE_IDLE_QUEST0 npc/metropolice/vo/(v50) on1 anyonepickup647e off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST1 npc/metropolice/vo/(v50) on2 checkformiscount off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST2 npc/metropolice/vo/(v50) on1 catchthatbliponstabilization off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST3 npc/metropolice/vo/(v50) on2 pickingupnoncorplexindy off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST4 npc/overwatch/radiovoice/(v50) on3 confirmupialert off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST5 npc/overwatch/radiovoice/(v50) on3 recalibratesocioscan off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST6 npc/overwatch/radiovoice/(v50) on3 airwatchreportspossiblemiscount off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST7 npc/overwatch/radiovoice/(v50) on3 recalibratesocioscan, recievingconflictingdata off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Answer to a question asked
+METROPOLICE_IDLE_ANSWER0 npc/metropolice/vo/(v50) on1 copy off4 {Len 1.5}
+METROPOLICE_IDLE_ANSWER1 npc/metropolice/vo/(v50) on1 rodgerthat off1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER2 npc/metropolice/vo/(v50) on2 ten4 off4 {Len 1.5}
+METROPOLICE_IDLE_ANSWER3 npc/metropolice/vo/(v50) on1 ten2 off1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER4 npc/metropolice/vo/(v50) on2 ten97 off3 {Len 1.5}
+METROPOLICE_IDLE_ANSWER5 npc/metropolice/vo/(v50) on1 affirmative off1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER6 npc/metropolice/vo/(v50) on2 affirmative2 off1 {Len 1.5}
+
+// Player is near, cop is harassing him
+METROPOLICE_IDLE_HARASS_PLAYER0 npc/metropolice/vo/(v70) on1 getoutofhere off1 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER1 npc/metropolice/vo/(v70) on1 movealong off4 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER2 npc/metropolice/vo/(v70) on1 vacatecitizen off4 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER3 npc/metropolice/vo/(v70) on1 youwantamalcomplianceverdict off3 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER4 npc/metropolice/vo/(v70) on1 lookingfortrouble off3 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER5 npc/metropolice/vo/(v70) on2 possiblelevel3civilprivacyviolator off3 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER6 npc/metropolice/vo/(v70) on2 possible647erequestairwatch off3 {Len 1.5} 
+METROPOLICE_IDLE_HARASS_PLAYER7 npc/metropolice/vo/(v70) on2 possible10-103alerttagunits off4 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER8 npc/metropolice/vo/(v70) on2 gota10-107sendairwatch off3 {Len 1.5}
+
+//
+// Idle sounds (criminal)
+//
+
+V_RNDPUNISHP0 permanentoffworld
+V_RNDPUNISHP1 immediateamputation
+V_RNDPUNISHP2 halfreproductioncredits
+V_RNDPUNISHP3 halfrankpoints
+
+// Simple idle sound, always used when not in squad, sometimes used when in squad
+METROPOLICE_IDLE_CR0 npc/metropolice/vo/(v50) on1 ten97suspectisgoa off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR1 npc/metropolice/vo/(v50) on2 suspect11-6my1020is V_G1_LOCATION_MAP__P V_G3_NUMBP off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR2 npc/metropolice/vo/(v50) on1 ten8standingby off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR3 npc/metropolice/vo/(v50) on2 code100 off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR4 npc/overwatch/radiovoice/(v50) on3 allunitsbolfor243suspect off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR5 npc/overwatch/radiovoice/(v50) on3 suspectisnow187 off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR6 npc/overwatch/radiovoice/(v50) on3 V_RNDCODECRIM_P inprogress, allunitsat V_G1_LOCATION_MAP__P V_G3_NUMBP respond off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR7 npc/overwatch/radiovoice/(v50) on3 politistablizationmarginal off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR8 npc/overwatch/radiovoice/(v50) on3 restrictedincursioninprogress, officerat V_G1_LOCATION_MAP__P V_G3_NUMBP investigateandreport off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR9 npc/overwatch/radiovoice/(v50) on3 socialfractureinprogress off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR10 npc/overwatch/radiovoice/(v50) on3 prematuremissiontermination V_RNDPUNISHP off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR11 npc/overwatch/radiovoice/(v50) on3 preparevisualdownload off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR12 npc/overwatch/radiovoice/(v50) on3 leadersreportratios off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR13 npc/overwatch/radiovoice/(v50) on3 V_RNDCODECRIM_P inprogress, investigateandreport off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR14 npc/overwatch/radiovoice/(v50) on3 failuretotreatoutbreak off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR15 npc/overwatch/radiovoice/(v50) on3 antifatigueration3mg off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR16 npc/overwatch/radiovoice/(v50) on3 accomplicesoperating off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR17 npc/overwatch/radiovoice/(v50) on3 remindermemoryreplacement off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR18 npc/overwatch/radiovoice/(v50) on3 reminder100credits off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+
+// Check with squadmates
+METROPOLICE_IDLE_CHECK_CR0 npc/metropolice/vo/(v50) on1 ptatlocationreport V_G1_LOCATION_MAP__P V_G3_NUMBP off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR1 npc/metropolice/vo/(v50) on1 cprequestsallunitsreportin off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR2 npc/metropolice/vo/(v50) on2 cpbolforthat243 off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR3 npc/metropolice/vo/(v50) on1 localcptreportstatus off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR4 npc/overwatch/radiovoice/(v50) on3 allunitsbolfor243suspect off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR5 npc/overwatch/radiovoice/(v50) on3 statuson243suspect off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR6 npc/overwatch/radiovoice/(v50) on3 reporton V_G2_SUSPECT_MAP__P off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR7 npc/metropolice/vo/(v50) on1 reportsightingsaccomplices V_G2_SUSPECT_MAP__P off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Response to the check with squadmates
+METROPOLICE_IDLE_CLEAR_CR0 npc/metropolice/vo/(v50) on1 suspectlocationunknown off3 {Len 1.5}
+METROPOLICE_IDLE_CLEAR_CR1 npc/metropolice/vo/(v50) on1 clearandcode100 off1 {Len 1.5}
+METROPOLICE_IDLE_CLEAR_CR2 npc/metropolice/vo/(v50) on2 novisualonupi off4 {Len 1.5}
+METROPOLICE_IDLE_CLEAR_CR3 npc/metropolice/vo/(v50) on1 searchingforsuspect off4 {Len 1.5}
+METROPOLICE_IDLE_CLEAR_CR4 npc/metropolice/vo/(v50) on2 utlthatsuspect off1 {Len 1.5}
+
+// Ask a question to squadmates
+METROPOLICE_IDLE_QUEST_CR0 npc/metropolice/vo/(v50) on1 confirmadw off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR1 npc/metropolice/vo/(v50) on1 allunitsbol34sat V_G1_LOCATION_MAP__P off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR2 npc/metropolice/vo/(v50) on2 dispreportssuspectincursion V_G1_LOCATION_MAP__P V_G3_NUMBP off1 off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR3 npc/metropolice/vo/(v50) on1 dispupdatingapb V_G2_SUSPECT_MAP__P off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR4 npc/overwatch/radiovoice/(v50) on3 allunitsverdictcodeonsuspect V_G2_SUSPECT_MAP__P, isnow V_RNDACTP V_RNDNUMP V_RNDACTP off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR5 npc/overwatch/radiovoice/(v50) on3 preparetoinnoculate V_G1_LOCATION_MAP__P off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR6 npc/overwatch/radiovoice/(v50) on3 allunitsreturntocode12 off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Answer to a question asked
+METROPOLICE_IDLE_ANSWER_CR0 npc/metropolice/vo/(v50) on1 copy off1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR1 npc/metropolice/vo/(v50) on1 rodgerthat off4 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR2 npc/metropolice/vo/(v50) on2 ten4 off1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR3 npc/metropolice/vo/(v50) on1 ten2 off3 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR4 npc/metropolice/vo/(v50) on2 ten97 off4 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR5 npc/metropolice/vo/(v50) on2 affirmative off1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR6 npc/metropolice/vo/(v50) on1 affirmative2 off4 {Len 1.5}
+
+//
+// Preciminal harrasment (amplifying in nastiness)
+//
+
+// These are done in sequence as the player persistently pesters the cops
+
+METROPOLICE_MOVE_ALONG_A0 npc/metropolice/vo/(v60) on1 movealong3 off1 {Len 1.5  closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_MOVE_ALONG_A1 npc/metropolice/vo/(v60) on1 move off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_MOVE_ALONG_A2 npc/metropolice/vo/(v60) on1 keepmoving off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+
+METROPOLICE_MOVE_ALONG_B0 npc/metropolice/vo/(v70) on1 Isaidmovealong off1 {Len  1.5closecaption NPC_MetroPolice.MoveAlong2}
+METROPOLICE_MOVE_ALONG_B1 npc/metropolice/vo/(v70) on2 youwantamalcomplianceverdict off3 {Len 1.5closecaption NPC_MetroPolice.MoveAlong2}
+//METROPOLICE_MOVE_ALONG_B2 npc/metropolice/vo/(v70) on1 moveaway off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+
+METROPOLICE_MOVE_ALONG_C0 npc/metropolice/vo/(v80) on2 level3civilprivacyviolator off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_MOVE_ALONG_C1 npc/metropolice/vo/(v80) on2 malcompliant10107my1020 off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_MOVE_ALONG_C2 npc/metropolice/vo/(v80) on2 preparingtojudge10-107 off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_MOVE_ALONG_C3 npc/metropolice/vo/(v80) on2 readytoprosecutefinalwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong}
+
+// These also are done in sequence as the player persistently pesters the cops
+
+METROPOLICE_BACK_UP_A0 npc/metropolice/vo/(v60) on1 backup off1 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_BACK_UP_A1 npc/metropolice/vo/(v60) on1 getoutofhere off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_BACK_UP_A2 npc/metropolice/vo/(v60) on2 firstwarningmove off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+
+METROPOLICE_BACK_UP_B0 npc/metropolice/vo/(v70) on1 movebackrightnow off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+METROPOLICE_BACK_UP_B1 npc/metropolice/vo/(v70) on1 secondwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+//METROPOLICE_BACK_UP_B2 npc/metropolice/vo/(v70) on2 moveawayenforcementarea off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+
+METROPOLICE_BACK_UP_C0 npc/metropolice/vo/(v80) on2 issuingmalcompliantcitation off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C1 npc/metropolice/vo/(v80) on2 possiblelevel3civilprivacyviolator off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C2 npc/metropolice/vo/(v80) on1 finalwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C3 npc/metropolice/vo/(v80) on2 preparingtojudge10-107 off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C4 npc/metropolice/vo/(v80) on2 readytoprosecutefinalwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+ 
+//
+// Baton
+//
+
+// Take out my baton
+METROPOLICE_ACTIVATE_BATON0 npc/metropolice/vo/(v100) on1 issuingmalcompliantcitation off3 {Len 1.5}
+METROPOLICE_ACTIVATE_BATON1 npc/metropolice/vo/(v100) on1 pacifying off4 {Len 1.5}
+METROPOLICE_ACTIVATE_BATON2 npc/metropolice/vo/(v100) on1 off3 {Len 1.5}
+
+// Put away my baton
+METROPOLICE_DEACTIVATE_BATON0 npc/metropolice/vo/(v100) on1 off3 {Len 1.5}
+
+//
+// I'm on fire! Yeouch!
+//
+
+METROPOLICE_ON_FIRE0 npc/metropolice/vo/(v100) on1 officerneedshelp V_IDIEDS {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_ON_FIRE1 npc/metropolice/vo/(v100) on1 help V_IDIEDS {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_ON_FIRE2 npc/metropolice/pain1 V_IDIEDS {Len 1.5 closecaption NPC_Combine.Pain}
+
+
+//
+// Misc
+//
+
+// My enemy is behind cover; I'm shooting out his cover
+METROPOLICE_SHOOT_COVER0 npc/metropolice/vo/(v100) on1 breakhiscover off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER1 npc/metropolice/vo/(v100) on1 destroythatcover off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER2 npc/metropolice/vo/(v100) on1 firingtoexposetarget off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER3 npc/metropolice/vo/(v100) on2 firetodislocateinterpose off1 {Len 1.5 closecaption NPC_Combine.Alert}
+
+// I'm moving more than 20ft to get into a new shooting position
+METROPOLICE_FLANK0 npc/metropolice/vo/(v100) on1 V_MYNAMEP V_MYNUMP ismovingin off3 {Len 1.5}
+METROPOLICE_FLANK1 npc/metropolice/vo/(v100) on1 covermegoingin off1 {Len 1.5}
+METROPOLICE_FLANK2 npc/metropolice/vo/(v100) on2 V_MYNAMEP V_MYNUMP isclosingonsuspect off3 {Len 1.5}
+METROPOLICE_FLANK3 npc/metropolice/vo/(v100) on1 V_MYNAMEP V_MYNUMP converging off4 {Len 1.5}
+METROPOLICE_FLANK4 npc/overwatch/radiovoice/(v100) on3 suspendnegotiations officerclosingonsuspect off2 {Len 1.5}
+METROPOLICE_FLANK5 npc/overwatch/radiovoice/(v100) on3 officerclosingonsuspect off2 {Len 1.5}
+METROPOLICE_FLANK6 npc/overwatch/radiovoice/(v100) on3 allunitsapplyforwardpressure off2 {Len 1.5}
+
+// I heard something
+METROPOLICE_HEARD_SOMETHING0 npc/metropolice/vo/(v60) on1 V_MYNAMEP V_MYNUMP investigating10-103 off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING1 npc/metropolice/vo/(v60) on2 Ihave10-30my10-20responding off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING2 npc/metropolice/vo/(v60) on1 V_MYNAMEP V_MYNUMP is415b off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING3 npc/metropolice/vo/(v60) on2 V_MYNAMEP V_MYNUMP responding2 off4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+V_RNDCHARGEP0 capitalmalcompliance
+V_RNDCHARGEP1 violationofcivictrust
+V_RNDCHARGEP2 promotingcommunalunrest
+V_RNDCHARGEP3 failuretocomply
+V_RNDCHARGEP4 level5anticivilactivity
+V_RNDCHARGEP5 destrutionofcpt
+V_RNDCHARGEP6 devisivesociocidal
+V_RNDCHARGEP7 incitingpopucide
+V_RNDCHARGES8 inciting404
+
+V_RNDJUDGEP0 immediateamputation
+V_RNDJUDGEP1 terminalprosecution
+V_RNDJUDGEP2 disassociationfromcivic
+
+
+// The player is significantly hurt
+METROPOLICE_PLAYERHIT0 npc/metropolice/vo/(v100) on1 wegotadbherecancel10-102 off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT1 npc/metropolice/vo/(v100) on2 suspectisbleeding off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT2 npc/metropolice/vo/(v100) on1 V_G2_SUSPECT_MAP__P ispassive off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT3 npc/metropolice/vo/(v100) on2 readytoamputate V_G2_SUSPECT_MAP__P off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT4 npc/metropolice/vo/(v100) on1 get11-44inboundcleaningup off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT5 npc/overwatch/radiovoice/(v100) on1, on1, on1, on3 attentionyouhavebeenchargedwith V_RNDCHARGEP, preparetoreceiveverdict V_RNDJUDGEP off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT6 npc/overwatch/radiovoice/(v100) on1, on1, on1, on3 attention V_G2_SUSPECT_MAP__P, prepareforfinalsentencing off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT7 npc/overwatch/radiovoice/(v100) on1, on1, on1, on3 youarechargedwithterminal, completesentencingatwill off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT8 npc/overwatch/radiovoice/(v100) on1, on1, on1, on3 attention V_G2_SUSPECT_MAP__P, youarejudgedguilty, allunitsdeliverterminalverdict off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+//
+// Taking cover
+//
+
+// Taking cover because I have no ammo
+METROPOLICE_COVER_NO_AMMO0 npc/metropolice/vo/(v100) on1 backmeupImout off1 {Len 1.5}
+//METROPOLICE_COVER_NO_AMMO1 npc/metropolice/vo/(v100) on1 noverdictslefttakingcover off4
+
+// Taking cover because I have low ammo
+METROPOLICE_COVER_LOW_AMMO0 npc/metropolice/vo/(v100) on1 runninglowonverdicts off1 {Len 1.5}
+
+// Taking cover because I have taken heavy damage recently
+
+METROPOLICE_COVER_HEAVY_DAMAGE0 npc/metropolice/vo/(v80) on1 officerunderfiretakingcover off1 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE1 npc/metropolice/vo/(v80) on1 officerneedsassistance off4 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE2 npc/metropolice/vo/(v80) on1 takecover {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE3 npc/metropolice/vo/(v80 p110) on1 movingtocover {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE4 npc/metropolice/vo/(v80) on2 off1 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE5 npc/metropolice/vo/(v80) on1 off3 {Len 1.5}
+// METROPOLICE_COVER_HEAVY_DAMAGE3 npc/metropolice/vo/(v100) on1 V_MYNAMEP needsmedical11-99 off4 {Len 1.5}
+
+//
+// Lost/refound enemy
+//
+
+// (UNDONE?) I lost my enemy under 10 seconds ago
+METROPOLICE_LOST_SHORT0 npc/metropolice/vo/(v60) on1 V_G2_SUSPECT_MAP__P hidinglastseenatrange V_DISTP meters off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT1 npc/metropolice/vo/(v60) on2 sweepingforsuspect off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT2 npc/overwatch/radiovoice/(v50) on3 switchcomtotac3, reportplease off4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// (UNDONE?) I lost my enemy over 10 seconds ago
+METROPOLICE_LOST_LONG0 npc/metropolice/vo/(v60) on1 allunitsreportlocationsuspect off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG1 npc/metropolice/vo/(v60) on1 V_MYNAMEP V_MYNUMP nocontact off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG2 npc/metropolice/vo/(v60) on2 cpweneedtoestablishaperimeterat V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG3 npc/metropolice/vo/(v60) on1 V_MYNAMEP V_MYNUMP utlsuspect off1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG4 npc/overwatch/radiovoice/(v60) on3 allunitsat V_G1_LOCATION_MAP__P V_G3_NUMBP, beginscanning10-0 off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG5 npc/overwatch/radiovoice/(v60) on3 switchtotac5reporttocp off2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// (UNDONE?) Just found enemy after lost long
+METROPOLICE_REFIND_ENEMY0 npc/metropolice/vo/(v100) on1 supsecthasmovednowto V_G1_LOCATION_MAP__P V_GRIDXP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY1 npc/metropolice/vo/(v100) on1 thereheis off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY2 npc/metropolice/vo/(v100) on1 therehegoeshesat V_DISTP meters off1 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// Monster Alert - first contact and I'm the squad leader
+//
+
+METROPOLICE_MONST0 npc/metropolice/vo/(v100) on1 outbreak V_RNDNUMP V_RNDACTP off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST1 npc/metropolice/vo/(v100) on1 V_RNDACTP V_RNDNUMP off1 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_PLAYER0 npc/metropolice/vo/(v100) on1 V_G2_SUSPECT_MAP__P matchonapblikeness off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER1 npc/metropolice/vo/(v100) on1 confirmpriority1sighted off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER2 npc/metropolice/vo/(v100) on2 allunitsrespondcode3, V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER3 npc/metropolice/vo/(v100) on1 V_G2_SUSPECT_MAP__P location V_G1_LOCATION_MAP__P V_G3_NUMBP off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER4 npc/metropolice/vo/(v100) on1 designatesuspectas V_G2_SUSPECT_MAP__P allunitscode2 off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER5 npc/metropolice/vo/(v100) on2 thereheis V_DISTP meters off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER6 npc/metropolice/vo/(v100) on2 contactwith243suspect, V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+
+METROPOLICE_MONST_PLAYER_VEHICLE0 npc/metropolice/vo/(v100) on2 airwatchsubjectis505 off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER_VEHICLE1 npc/metropolice/vo/(v100) on2 subjectis505 off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER_VEHICLE2 npc/metropolice/vo/(v100) on2 subjectisnowhighspeed off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER_VEHICLE3 npc/metropolice/vo/(v100) on2 Ivegot408hereatlocation V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_BUGS0 npc/metropolice/vo/(v100) on1 bugs off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_BUGS1 npc/metropolice/vo/(v100) on1 bugsontheloose off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_BUGS2 npc/metropolice/vo/(v100) on2 outbreak V_RNDNUMP converging off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_BUGS3 npc/metropolice/vo/(v100) on1 outlandbioticinhere off4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_CITIZENS0 npc/metropolice/vo/(v100) on1 noncitizen outbreak off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS1 npc/metropolice/vo/(v100) on2 shotsfiredhostilemalignants off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS2 npc/metropolice/vo/(v100) on1 possible404here V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_CHARACTER0 npc/metropolice/vo/(v100) on1 contactwithpriority2 off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER1 npc/metropolice/vo/(v100) on2 priority2anticitizenhere off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER2 npc/metropolice/vo/(v100) on1 gotoneaccomplicehere off4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_ZOMBIES0 npc/metropolice/vo/(v100) on1 freenecrotics, converging V_G1_LOCATION_MAP__P V_G3_NUMBP off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES1 npc/metropolice/vo/(v100) on1 necrotics malignant location V_G1_LOCATION_MAP__P V_G3_NUMBP off4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_PARASITES0 npc/metropolice/vo/(v100) on1 non-taggedviromeshere off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PARASITES1 npc/metropolice/vo/(v100) on1 looseparasitics off4 {Len 1.5 closecaption NPC_Combine.Alert} 
+
+//
+// I killed a monster - by type
+//
+
+METROPOLICE_KILL_MONST0 npc/metropolice/vo/(v100) on1 ten91dcountis V_SEQG0_NBRP off1 {Len 1.5}
+METROPOLICE_KILL_MONST1 npc/metropolice/vo/(v100) on1 tag10-91d V_SEQG0_NBRP off1 {Len 1.5}
+METROPOLICE_KILL_MONST2 npc/metropolice/vo/(v100) on2 sterilize V_SEQG0_NBRP off4 {Len 1.5}
+
+METROPOLICE_KILL_BUGS0 npc/metropolice/vo/(v100) on1 tagonebug off1 {Len 1.5}
+METROPOLICE_KILL_BUGS1 npc/metropolice/vo/(v100) on1 sterilize V_SEQG0_NBRP off1 {Len 1.5}
+
+METROPOLICE_KILL_PLAYER0 npc/metropolice/vo/(v100) on2 sentencedelivered off3 {Len 1.5}
+METROPOLICE_KILL_PLAYER1 npc/metropolice/vo/(v100) on2 V_G2_SUSPECT_MAP__P ispassive off3 {Len 1.5}
+METROPOLICE_KILL_PLAYER2 npc/metropolice/vo/(v100) on2 finalverdictadministered off3 {Len 1.5}
+METROPOLICE_KILL_PLAYER3 npc/metropolice/vo/(v100) on2 protectioncomplete off3 {Len 1.5}
+METROPOLICE_KILL_PLAYER4 npc/metropolice/vo/(v100) on2 sentencedelivered off3 {Len 1.5}
+METROPOLICE_KILL_PLAYER5 npc/metropolice/vo/(v100) on2 classifyasdbthisblockready off3 {Len 1.5}
+METROPOLICE_KILL_PLAYER6 npc/overwatch/radiovoice/(v100) on3 rewardnotice off2 {Len 1.5}
+METROPOLICE_KILL_PLAYER7 npc/overwatch/radiovoice/(v100) on3 allunitsreturntocode12 off2 {Len 1.5}
+METROPOLICE_KILL_PLAYER8 npc/overwatch/radiovoice/(v100) on3 finalverdictadministered, allunitsbeginwhitnesssterilization off2 {Len 1.5}
+METROPOLICE_KILL_PLAYER9 npc/overwatch/radiovoice/(v100) on3 sociostabilizationrestored off2 {Len 1.5}
+
+
+METROPOLICE_KILL_CITIZENS0 npc/metropolice/vo/(v100) on2 V_SEQG0_NBRP sentencedelivered off4 {Len 1.5}
+METROPOLICE_KILL_CITIZENS1 npc/metropolice/vo/(v100) on2 V_SEQG0_NBRP expired off4 {Len 1.5}
+METROPOLICE_KILL_CITIZENS2 npc/metropolice/vo/(v100) on2 V_SEQG0_NBRP malignant off1 {Len 1.5}
+METROPOLICE_KILL_CITIZENS3 npc/metropolice/vo/(v100) on2 noncitizen expired off1 {Len 1.5}
+
+METROPOLICE_KILL_CHARACTER0 npc/metropolice/vo/(v100) on1 V_SEQG0_NBRP sentenced off1 {Len 1.5}
+METROPOLICE_KILL_CHARACTER1 npc/metropolice/vo/(v100) on2 dbcountis V_SEQG0_NBRP off4 {Len 1.5}
+METROPOLICE_KILL_CHARACTER2 npc/metropolice/vo/(v100) on1 suspend V_SEQG0_NBRP off1 {Len 1.5}
+
+METROPOLICE_KILL_ZOMBIES0 npc/metropolice/vo/(v100) on1 tagonenecrotic off1 {Len 1.5}
+METROPOLICE_KILL_ZOMBIES1 npc/metropolice/vo/(v100) on1 sterilize V_SEQG0_NBRP off4 {Len 1.5}
+
+METROPOLICE_KILL_PARASITES0 npc/metropolice/vo/(v100) on2 tagoneparasitic off1 {Len 1.5}
+METROPOLICE_KILL_PARASITES1 npc/metropolice/vo/(v100) on1 sterilize V_SEQG0_NBRP off1 {Len 1.5}
+
+
+//
+// Manhack sounds
+//
+
+// Deploying a manhack
+METROPOLICE_DEPLOY_MANHACK0 npc/metropolice/vo/(v90) on1 visceratordeployed off3 {Len 1.5}
+METROPOLICE_DEPLOY_MANHACK1 npc/metropolice/vo/(v90) on1 tenzerovisceratorishunting off3 {Len 1.5} 
+//METROPOLICE_DEPLOY_MANHACK2 npc/metropolice/vo/(v90) on1 allunitsvisceratorisactive off4 {Len 1.5}
+
+// My manhack was killed
+METROPOLICE_MANHACK_KILLED0 npc/metropolice/vo/(v80) on1 visceratorisoffgrid off3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MANHACK_KILLED1 npc/metropolice/vo/(v80) on1 requestsecondaryviscerator off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// Squad sounds
+//
+
+// A squadmate died
+METROPOLICE_MAN_DOWN0 npc/metropolice/vo/(v100) on1 wehavea10-108 off1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN1 npc/metropolice/vo/(v100) on1 V_WHODIEDP isdown off4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN2 npc/metropolice/vo/(v100) on1 V_WHODIEDP is10-108 off1 {Len 1.5 closecaption NPC_Combine.Alert}
+
+// My last squadmate died; I'm all that's left!
+METROPOLICE_LAST_OF_SQUAD0 npc/metropolice/vo/(v100) on1 officerdowncode3tomy10-20 off1 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD1 npc/metropolice/vo/(v100) on1 officerdownIam10-99 off4 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD2 npc/metropolice/vo/(v100) on1 cpisoverrunwehavenocontainment off3 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD3 npc/overwatch/radiovoice/(v100) on3 engagingteamisnoncohesive, reinforcementteamscode3 off2 {Len 1.5 closecaption NPC_Combine.Last}
+
+//
+// Danger sounds - by type
+//
+METROPOLICE_DANGER_GREN0 npc/metropolice/vo/(v100) on1 grenade {Len 1.5}
+METROPOLICE_DANGER_GREN1 npc/metropolice/vo/(v100) on1 thatsagrenade {Len 1.5} 
+METROPOLICE_DANGER_GREN2 npc/metropolice/vo/(v100) on1 getdown {Len 1.5}
+
+METROPOLICE_DANGER_MANHACK0 npc/metropolice/vo/(v100) on1 lookoutrogueviscerator off4 {Len 1.5}
+METROPOLICE_DANGER_MANHACK1 npc/metropolice/vo/(v100) on1 visceratorisoc off1 {Len 1.5}
+
+METROPOLICE_DANGER_VEHICLE0 npc/metropolice/vo/(v100) on1 shit {Len 1.5}
+METROPOLICE_DANGER_VEHICLE1 npc/metropolice/vo/(v100) on1 watchit {Len 1.5}
+METROPOLICE_DANGER_VEHICLE2 npc/metropolice/vo/(v100) on1 lookout {Len 1.5}
+
+METROPOLICE_DANGER0 npc/metropolice/vo/(v100) on1 moveit {Len 1.5}
+METROPOLICE_DANGER1 npc/metropolice/vo/(v100) on1 lookout {Len 1.5}
+
+//
+// Func_tank behavior
+//
+
+// I'm moving to man a func_tank
+METROPOLICE_FT_APPROACH0 npc/metropolice/vo/(v80) on1 V_MYNAMEP V_MYNUMP on1 movingtohardpoint off3 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I've just manned a func_tank
+METROPOLICE_FT_MOUNT0 npc/metropolice/vo/(v80) on1 V_MYNAMEP V_MYNUMP on1 inpositionathardpoint off3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_MOUNT1 npc/metropolice/vo/(v80) on2 V_MYNAMEP V_MYNUMP on2 isathardpointreadytoprosecute off3 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm manning a func_tank and am scanning for enemies
+METROPOLICE_FT_SCAN0 npc/metropolice/vo/(v80) on1 hardpointscanning off3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN1 npc/metropolice/vo/(v80) on2 sweepingforsuspect off4 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I've dismounted the func_tank
+METROPOLICE_FT_DISMOUNT0 npc/metropolice/vo/(v80) on1 V_MYNAMEP V_MYNUMP dismountinghardpoint off3 {Len 1.5 closecaption NPC_Combine.Coord}
+
+
+//
+// Assault behavior
+//
+
+// I've hit my rally point, waiting to move out
+METROPOLICE_AS_HIT_RALLY0 npc/metropolice/vo/(v70) on1 V_MYNAMEP V_MYNUMP inposition off3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY1 npc/metropolice/vo/(v70) on2 V_MYNAMEP V_MYNUMP atcheckpoint off4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY2 npc/metropolice/vo/(v70) on1 V_MYNAMEP V_MYNUMP on1 isreadytogo off1 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I've hit my assault point, waiting to move out
+METROPOLICE_AS_HIT_ASSAULT0 npc/metropolice/vo/(v70) on1 V_MYNAMEP V_MYNUMP readytojudge  off3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_ASSAULT1 npc/metropolice/vo/(v70) on2 V_MYNAMEP V_MYNUMP inpositiononeready off4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_ASSAULT2 npc/metropolice/vo/(v70) on1 V_MYNAMEP V_MYNUMP isgo off1 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm squad leader, ordering squad to move to rally point
+METROPOLICE_AS_ADV_RALLY0 npc/metropolice/vo/(v70) on1 proceedtocheckpoints off1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY1 npc/metropolice/vo/(v70) on2 allunitscloseonsuspect off3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY2 npc/metropolice/vo/(v70) on1 allunitsmovein off4 {Len 1.5 closecaption NPC_Combine.Coord}
+
+
+// I'm squad leader, ordering squad to move to assault point
+METROPOLICE_AS_ADV_ASSAULT0 npc/metropolice/vo/(v100) on1 teaminpositionadvance off3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT1 npc/metropolice/vo/(v100) on2 ptgoagain off1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT2 npc/metropolice/vo/(v100) on1 assaultpointsecureadvance off4 {Len 1.5 closecaption NPC_Combine.Coord}
+//
+// Standoff behavior
+//
+
+// I'm squad leader telling squad to go into standoff
+METROPOLICE_SO_BEGIN0 npc/metropolice/vo/(v100) on1 holdthisposition off1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_BEGIN1 npc/metropolice/vo/(v100) on2 lockyourposition off4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_BEGIN2 npc/metropolice/vo/(v100) on1 allunitsmaintainthiscp off4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_BEGIN3 npc/overwatch/radiovoice/(v100) on3 lockdownlocationsacrificecode V_RNDACTP V_RNDNUMP off2 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm squad leader telling squad to end standoff
+METROPOLICE_SO_END0 npc/metropolice/vo/(v100) on1 cpiscompromised off1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END1 npc/metropolice/vo/(v100) on1 establishnewcp off1 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm being forced to take cover
+METROPOLICE_SO_FORCE_COVER0 npc/metropolice/vo/(v100) on1 officerunderfiretakingcover off4 {Len 1.5}
+METROPOLICE_SO_FORCE_COVER1 npc/metropolice/vo/(v100) on2 movingtocover off4 {Len 1.5}
+METROPOLICE_SO_FORCE_COVER2 npc/metropolice/vo/(v100) on1 takecover off1 {Len 1.5}
+
+// I'm peeking over cover to see if I can see the enemy
+METROPOLICE_SO_PEEK0 npc/metropolice/vo/(v100) on1 goingtotakealook off1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_PEEK1 npc/metropolice/vo/(v100) on1 acquiringonvisual off4 {Len 1.5 closecaption NPC_Combine.Coord}
+
+
+//
+// First arrest encounter speech
+//
+
+// First cop who finds you tells you to freeze
+METROPOLICE_FREEZE0 npc/metropolice/vo/(v100) on1 holditrightthere off4 {Len 1.5}
+METROPOLICE_FREEZE1 npc/metropolice/vo/(v100) on1 prepareforjudgement off4 {Len 1.5}
+
+// First cop then tells his buddies to come over
+METROPOLICE_OVER_HERE0 npc/metropolice/vo/(v80) on1 movetoarrestpositions off3 {Len 1.5}
+METROPOLICE_OVER_HERE1 npc/metropolice/vo/(v80) on2 positiontocontain off4 {Len 1.5}
+METROPOLICE_OVER_HERE2 npc/metropolice/vo/(v80) on1 preparefor1015 off1 {Len 1.5}
+
+// First cop tells his buddies the player is fleeing if he does
+METROPOLICE_HES_RUNNING0 npc/metropolice/vo/(v100) on1 hesrunning off1 {Len 1.5}
+METROPOLICE_HES_RUNNING1 npc/metropolice/vo/(v100) on2 hesgone148 off4 {Len 1.5}
+
+// Other squad cops signal when they get in position
+METROPOLICE_ARREST_IN_POS0 npc/metropolice/vo/(v80) on1 V_MYNAMEP V_MYNUMP, inposition off1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_ARREST_IN_POS1 npc/metropolice/vo/(v80) on2 V_MYNAMEP V_MYNUMP, readytoprosecute off3 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// First cop tells his buddies to fire once they are all in position 
+METROPOLICE_TAKE_HIM_DOWN0 npc/overwatch/radiovoice/(v100) on3 allunitsdeliverterminalverdict off2 {Len 2.5 closecaption NPC_Combine.Coord} 
+METROPOLICE_TAKE_HIM_DOWN1 npc/overwatch/radiovoice/(v100) on3 allunitsverdictcodeis V_RNDJUDGEP off2 {Len 2.5 closecaption NPC_Combine.Coord}
+METROPOLICE_TAKE_HIM_DOWN2 npc/overwatch/radiovoice/(v100) on3 suspectmalignantverdictcodeis V_RNDJUDGEP off2 {Len 2.5 closecaption NPC_Combine.Coord}
+
+
+// Cop is hit by physics object thrown by player (not with physcannon)
+
+METROPOLICE_HIT_BY_PHYSOBJECT0 on1 preparingtojudge10-107 off1 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT1 on1 movebackrightnow off1 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT2 on1 holditrightthere off1 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT3 on1 V_MYNAMEP V_MYNUMP hasmalcompliant off1 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT4 on1 malcompliant10107my1020 off1 {Len 1.5}
+
+
+//-----------------------------------------------------------------------------
+// METROPOLICE ENDS HERE
+//-----------------------------------------------------------------------------
+
+
+
+// HEV Suit
+
+// powerup
+
+HEV_AAx hl1/fvox/bell
+
+//HEV_logon, powerarmor_on, atmospherics_on,vitalsigns_on, automedic_on, weaponselect_on, munitionview_on, communications_on, safe_day {Len 41.76}
+
+//HEV_A0 hl1/fvox/bell, HEV_logon {Len 11.07}
+
+//HEV_A1 hl1/fvox/blip blip(p130) powermove_on {Len 3.71}
+//HEV_A2 hl1/fvox/blip blip powerarmor_on {Len 4.42}
+//HEV_A3 hl1/fvox/blip blip(p130) atmospherics_on {Len 4.41}
+//HEV_A4 hl1/fvox/blip blip vitalsigns_on boop, boop, boop {Len 5.28}
+//HEV_A5 hl1/fvox/blip blip(p130) munitionview_on {Len 3.84}
+//HEV_A6 hl1/fvox/blip blip communications_on {Len 3.59}
+//HEV_A7 hl1/fvox/blip blip(p70) weaponselect_on {Len 3.97}
+//HEV_A8 hl1/fvox/blip blip(p70) automedic_on {Len 3.77}
+//HEV_A9 hl1/fvox/fuzz power_level_is onehundred percent {Len 4.14}
+//HEV_A10 hl1/fvox/safe_day, bell {Len 3.66}
+
+// medical
+HEV_DEAD0 hl1/fvox/beep beep, beep beep, beep, beep, flatline {Len 6.29 closecaption HEV.Flatline}
+HEV_DEAD1 hl1/fvox/beep beep, beep beep, beep, flatline {Len 5.82 closecaption HEV.Flatline}
+
+HEV_MED0 hl1/fvox/(p140) boop, boop, boop, (p100) innsuficient_medical {Len 1.41 closecaption HEV.insufficient_medical}
+HEV_MED1 hl1/fvox/(p140) boop, boop, boop, (p100) automedic_on {Len 4.92 closecaption HEV.automedic_on}
+HEV_MED2 hl1/fvox/(p140) boop, boop, boop, (p100) administering_medical {Len 1.41 closecaption HEV.administering_medical}
+
+HEV_HEAL0 hl1/fvox/(p140) boop, boop, boop, (p100) wound_sterilized, blip(p130 v50), blip(p130 v40), hiss, morphine_shot {Len 7.03 closecaption HEV.sterilized_morphine}
+HEV_HEAL1 hl1/fvox/(p140) boop, boop, boop, (p100) torniquette_applied, bleeding_stopped {Len 7.03 closecaption HEV.torni_bleed}
+HEV_HEAL2 hl1/fvox/(p140) boop, boop, boop, (p100) bleeding_stopped {Len 3.66 closecaption HEV.bleeding_stopped}
+HEV_HEAL3 hl1/fvox/(p140) boop, boop, boop, (p100) blood_plasma {Len 4.02 closecaption HEV.blood_plasma}
+HEV_HEAL4 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, antitoxin_shot {Len 4.38 closecaption HEV.antitoxin_shot}
+HEV_HEAL5 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, antidote_shot {Len 4.17 closecaption HEV.antidote_shot}
+HEV_HEAL6 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, wound_sterilized {Len 4.16 closecaption HEV.wound_sterilized}
+HEV_HEAL7 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, morphine_shot {Len 4.16 closecaption HEV.morphine_shot}
+HEV_HEAL8 hl1/fvox/(p140) boop, boop, boop, (p100) medical_repaired {Len 4.17 closecaption HEV.medical_repaired}
+
+
+HEV_DMG0 hl1/fvox/(p160) boop, boop, boop, (p100) minor_lacerations {Len 4.09 closecaption HEV.minor_lacerations}
+HEV_DMG1 hl1/fvox/(p160) boop, boop, boop, (p100) major_lacerations {Len 4.19 closecaption HEV.major_lacerations}
+HEV_DMG2 hl1/fvox/(p160) boop, boop, boop, (p100) internal_bleeding {Len 3.64 closecaption HEV.internal_bleeding}
+HEV_DMG3 hl1/fvox/(p160) boop, boop, boop, (p100) blood_toxins {Len 5.04 closecaption HEV.blood_toxins}
+HEV_DMG4 hl1/fvox/(p160) boop, boop, boop, (p100) minor_fracture {Len 3.67 closecaption HEV.minor_fracture}
+HEV_DMG5 hl1/fvox/(p160) boop, boop, boop, (p100) major_fracture {Len 3.67 closecaption HEV.major_fracture}
+HEV_DMG6 hl1/fvox/(p160) boop, boop, boop, (p100) blood_loss {Len 3.39 closecaption HEV.blood_loss}
+HEV_DMG7 hl1/fvox/(p140) boop, boop, boop, (p100) seek_medic {Len 3.92 closecaption HEV.seek_medic}
+
+
+
+HEV_HLTH0 hl1/fvox/(p120) beep, beep, (p100) health_dropping {Len 4.31 closecaption HEV.health_dropping}
+HEV_HLTH1 hl1/fvox/(p120) beep, beep, (p100) health_dropping2 {Len 3.68 closecaption HEV.health_dropping2}
+HEV_HLTH2 hl1/fvox/(p120) beep, beep, beep, (p100) health_critical {Len 4.32 closecaption HEV.health_critical}
+HEV_HLTH3 hl1/fvox/(p120) beep, beep, beep, (p100) near_death {Len 4.77 closecaption HEV.near_death}
+HEV_HLTH4 hl1/fvox/(p140) beep, beep, (p100) health_dropping2, evacuate_area {Len 5.93 closecaption HEV.health2_evac}
+HEV_HLTH5 hl1/fvox/(p140) beep, beep, beep, (p100) health_critical, evacuate_area {Len 6.52 closecaption HEV.health_crit_evac}
+HEV_HLTH6 hl1/fvox/(p140) beep, beep, beep, (p100) near_death, evacuate_area immediately {Len 8.22 closecaption HEV.near_death_evac}
+
+
+HEV_SHOCK hl1/fvox/(p120) beep, beep, (p100) warning, shock_damage {Len 4.05 closecaption HEV.shock_damage}
+HEV_FIRE hl1/fvox/(p120) beep, beep, (p100) warning, heat_damage {Len 4.77 closecaption HEV.heat_damage}
+
+// items
+HEV_AIM_ON hl1/fvox/blip targetting_system activated {Len 4.02 closecaption HEV.targetting_system_on}
+HEV_AIM_OFF hl1/fvox/blip targetting_system deactivated {Len 4.27 closecaption HEV.targetting_system_off}
+HEV_BATTERY hl1/fvox/blip get_battery acquired {Len 0.92}
+HEV_MEDKIT hl1/fvox/blip get_medkit(v80) {Len 0.11}
+
+HEV_PISTOL hl1/fvox/blip get_pistol acquired {Len 0.92}
+HEV_SHOTGUN hl1/fvox/blip get_shotgun {Len 0.11}
+HEV_GRENADE hl1/fvox/blip get_grenade acquired {Len 0.92}
+HEV_ASSAULT hl1/fvox/blip get_assault acquired {Len 0.92}
+HEV_44PISTOL hl1/fvox/blip get_44pistol acquired {Len 0.92}
+HEV_RPG hl1/fvox/blip get_rpg acquired {Len 0.92}
+HEV_SATCHEL hl1/fvox/blip get_satchel acquired {Len 0.92}
+HEV_TRIPMINE hl1/fvox/blip get_tripmine acquired {Len 0.92}
+HEV_HORNET hl1/fvox/blip get_alien_wpn {Len 0.11}
+HEV_SQUEEK hl1/fvox/blip get_alien_wpn {Len 0.11}
+HEV_EGON hl1/fvox/blip get_egon acquired {Len 0.92}
+HEV_GAUSS hl1/fvox/blip get_gauss acquired {Len 0.92}
+HEV_XBOW hl1/fvox/blip get_crossbow acquired {Len 0.92}
+
+HEV_9MM hl1/fvox/blip get_9mmclip acquired {Len 0.92}
+HEV_44AMMO hl1/fvox/blip get_44ammo acquired {Len 0.92}
+HEV_BUCKSHOT hl1/fvox/blip get_buckshot acquired {Len 0.92}
+HEV_BOLTS hl1/fvox/blip get_bolts acquired {Len 0.92}
+HEV_RPGAMMO hl1/fvox/blip get_rpgammo acquired {Len 0.92}
+HEV_AGRENADE hl1/fvox/blip get_assaultgren acquired {Len 0.92}
+HEV_EGONPOWER hl1/fvox/blip get_egonpower acquired {Len 0.92}
+
+// time
+
+//HEV_C1t hl1/fvox/bell time_is_now one AM
+//HEV_C13t hl1/fvox/bell time_is_now one PM
+
+// power levels
+
+HEV_D00 hl1/fvox/fuzz fuzz(p130), power_restored {Len 2.12 closecaption HEV.power_restored}
+HEV_D01 hl1/fvox/fuzz fuzz(p80), hev_shutdown {Len 4.99 closecaption HEV.hev_shutdown}
+
+HEV_0P hl1/fvox/fuzz fuzz, power_below five percent {Len 6.35}
+HEV_1P hl1/fvox/fuzz fuzz, power_restored(e30), ten percent {Len 2.75}
+HEV_2P hl1/fvox/fuzz fuzz, power_restored(e30), fifteen percent {Len 3.15}
+HEV_3P hl1/fvox/fuzz fuzz, power_restored(e30), twenty percent {Len 2.99}
+HEV_4P hl1/fvox/fuzz fuzz, power_restored(e30), twenty five percent {Len 3.87}
+HEV_5P hl1/fvox/fuzz fuzz, power_restored(e30), thirty percent {Len 3.04}
+HEV_6P hl1/fvox/fuzz fuzz, power_restored(e30), thirty five percent {Len 3.91}
+HEV_7P hl1/fvox/fuzz fuzz, power_restored(e30), fourty percent {Len 3.07}
+HEV_8P hl1/fvox/fuzz fuzz, power_restored(e30), fourty five percent {Len 3.95}
+HEV_9P hl1/fvox/fuzz fuzz, power_restored(e30), fifty percent {Len 3.17}
+HEV_10P hl1/fvox/fuzz fuzz, power_restored(e30), fifty five percent {Len 4.05}
+HEV_11P hl1/fvox/fuzz fuzz, power_restored(e30), sixty percent {Len 3.16}
+HEV_12P hl1/fvox/fuzz fuzz, power_restored(e30), sixty five percent {Len 4.04}
+HEV_13P hl1/fvox/fuzz fuzz, power_restored(e30), seventy percent {Len 3.12}
+HEV_14P hl1/fvox/fuzz fuzz, power_restored(e30), seventy five percent {Len 4.00}
+HEV_15P hl1/fvox/fuzz fuzz, power_restored(e30), eighty percent {Len 2.88}
+HEV_16P hl1/fvox/fuzz fuzz, power_restored(e30), eighty five percent {Len 3.76}
+HEV_17P hl1/fvox/fuzz fuzz, power_restored(e30), ninety percent {Len 3.12}
+HEV_18P hl1/fvox/fuzz fuzz, power_restored(e30), ninety five percent {Len 4.00}
+HEV_19P hl1/fvox/fuzz fuzz, power_level_is onehundred percent {Len 4.62}
+
+// weapon/ammo
+
+HEV_AMO0 hl1/fvox/blip ammo_depleted {Len 2.16 closecaption HEV.ammo_depleted}
+
+// suit
+
+HEV_V0 hl1/fvox/blip, voice_on {Len 3.17}
+HEV_V1 hl1/fvox/blip, voice_off {Len 3.06}
+
+
+HEV_E0 hl1/fvox/buzz buzz, armor_gone {Len 2.95 closecaption HEV.armor_gone}
+HEV_E1 hl1/fvox/buzz, armor_gone {Len 2.62 closecaption HEV.armor_gone}
+HEV_E2 hl1/fvox/buzz, hev_critical_fail {Len 4.75 closecaption HEV.hev_critical_fail}
+HEV_E3 hl1/fvox/buzz, hev_general_fail {Len 3.22 closecaption HEV.hev_general_fail}
+HEV_E4 hl1/fvox/buzz, hev_damage {Len 3.53 closecaption HEV.hev_damage}
+HEV_E5 hl1/fvox/buzz, powermove_overload {Len 4.98 closecaption HEV.powermove_overload}
+
+// time remaining countdown
+
+//HEV_F10t hl1/fvox/bell time_remaining ten seconds
+//HEV_F15t hl1/fvox/bell time_remaining fifteen seconds
+//HEV_F20t hl1/fvox/bell time_remaining twenty seconds
+//HEV_F30t hl1/fvox/bell time_remaining thirty seconds
+
+// detections
+
+HEV_DET0 hl1/fvox/blip blip blip, biohazard_detected {Len 3.67 closecaption HEV.biohazard_detected}
+HEV_DET1 hl1/fvox/blip blip blip, chemical_detected {Len 4.33 closecaption HEV.chemical_detected}
+HEV_DET2 hl1/fvox/blip blip blip, radiation_detected {Len 5.08 closecaption HEV.radiation_detected}
+HEV_DET3 hl1/fvox/blip blip blip, bio_reading {Len 2.93 closecaption HEV.bio_reading}
+HEV_DET4 hl1/fvox/blip blip blip, antitoxin_shot(e50), onehundred percent {Len 3.67 closecaption HEV.biohazard_detected}
+HEV_DET5 hl1/fvox/blip blip blip, antitoxin_shot(e25) radiation_detected(e50), onehundred percent {Len 5.37 closecaption HEV.radiation_detected}
+
+//HEV_GR0r hl1/fvox/range twenty meters(t60)
+//HEV_GR1r hl1/fvox/range nineteen meters
+//HEV_GR2r hl1/fvox/range eighteen meters
+

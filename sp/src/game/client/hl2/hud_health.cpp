@@ -87,7 +87,7 @@ void CHudHealth::Paint()
 	BaseClass::Paint();
 
 	m_iconHealth = gHUD.GetIcon("health_label_glow");
-	m_iconHealth->DrawSelf(icon_xpos, icon_ypos, Color(242, 207, 29, 48));
+	m_iconHealth->DrawSelf(icon_xpos, icon_ypos, Color(242, 72, 29, 64));
 
 	m_iconHealth = gHUD.GetIcon("health_label");
 	m_iconHealth->DrawSelf(icon_xpos, icon_ypos, GetFgColor());
@@ -100,16 +100,6 @@ void CHudHealth::Reset()
 	m_iHealth = INIT_HEALTH;
 	m_bitsDamage = 0;
 
-	wchar_t *tempString = g_pVGuiLocalize->Find("#Valve_Hud_HEALTH");
-
-	if (tempString)
-	{
-		SetLabelText(tempString);
-	}
-	else
-	{
-		SetLabelText(L"#Valve_Hud_HEALTH");
-	}
 	SetDisplayValue(m_iHealth);
 
 
@@ -157,11 +147,11 @@ void CHudHealth::OnThink()
 	SetDisplayValue(m_iHealth);
 
 	surface()->DrawSetTextColor(GetFgColor());
-	PaintNumbers(m_hNumberGlowFont, text_xpos, text_ypos, m_iHealth);
+	PaintNumbers(m_hNumberGlowFont, digit_xpos, digit_ypos, m_iHealth);
 	Color col = GetFgColor();
 	col[3] *= 1.0f;
 	surface()->DrawSetTextColor(col);
-	PaintNumbers(m_hNumberFont, text_xpos, text_ypos, m_iHealth);
+	PaintNumbers(m_hNumberFont, digit_xpos, digit_ypos, m_iHealth);
 }
 
 //-----------------------------------------------------------------------------

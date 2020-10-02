@@ -61,14 +61,14 @@
 		"MainMenu.Logo.Right"							"242 136 29 255" // "255 217 73 255"
 		
 		"MainMenu.Button.Background.Out"				"0 0 0 0"
-		"MainMenu.Button.Background.Over"				"125 125 125 35" // "0 0 0 50"
-		"MainMenu.Button.Background.Pressed"			"0 0 0 255" // "20 20 20 255"
-		"MainMenu.Button.Background.Released"			"0 0 0 50" // "0 0 0 50"
+		"MainMenu.Button.Background.Over"				"0 0 0 0" // "0 0 0 50"
+		"MainMenu.Button.Background.Pressed"			"0 0 0 0" // "20 20 20 255"
+		"MainMenu.Button.Background.Released"			"0 0 0 0" // "0 0 0 50"
 
 		"MainMenu.Button.Background.Outline.Out"		"0 0 0 0"
-		"MainMenu.Button.Background.Outline.Over"		"95 69 16 255"
-		"MainMenu.Button.Background.Outline.Pressed"	"95 69 16 255"
-		"MainMenu.Button.Background.Outline.Released"	"95 69 16 255"
+		"MainMenu.Button.Background.Outline.Over"		"0 0 0 0"
+		"MainMenu.Button.Background.Outline.Pressed"	"0 0 0 0"
+		"MainMenu.Button.Background.Outline.Released"	"0 0 0 0"
 
 		"MainMenu.Button.Text.Out"						"163 157 156 255"
 		"MainMenu.Button.Text.Over"						"255 255 255 255"
@@ -92,8 +92,8 @@
 		{
 			"settings"
 			{
-				"name"			"Facile Sans" // "Facile Sans"
-				"tall"			"65" // "65"
+				"name"			"K12HL2" // "Facile Sans"
+				"tall"			"72" // "65"
 				"weight"		"400"
 				"antialias"		"1"
 			}
@@ -137,7 +137,7 @@
 	"CustomFontFiles"
 	{
 		"file"		"resource/fonts/NotoSans-Regular.ttf" // Noto Sans
-		"file"		"resource/fonts/FacileSans.ttf" // Facile Sans
+		"file"		"resource/fonts/K12HL2.ttf" // Facile Sans
 		"file"		"resource/fonts/Roboto-Medium.ttf" // Roboto Medium
 		"file"		"resource/fonts/nokia-pure-text.ttf" // Nokia Pure Text Regular
 		"file"		"resource/fonts/gautami.ttf" // HYPE

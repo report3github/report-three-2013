@@ -1,0 +1,8 @@
+"Weapon_Physcannon.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"	"weapons/physcanon/gravgun_deploy.wav"
+}

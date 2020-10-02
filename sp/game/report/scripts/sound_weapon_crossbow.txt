@@ -1,0 +1,168 @@
+"Weapon_Crossbow.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.61"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"93,108"
+
+	"wave"			"weapons/crossbow/fire1.wav"
+}
+
+"Weapon_Crossbow.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"pitch"			"93,108"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/crossbow/reload1.wav"
+}
+
+"Weapon_Crossbow.BoltFly"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/crossbow/bolt_fly4.wav"
+}
+
+"Weapon_Crossbow.BoltElectrify"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"pitch"			"93,108"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"weapons/crossbow/bolt_load1.wav"
+		"wave"		"weapons/crossbow/bolt_load2.wav"
+	}
+}
+
+"Weapon_Crossbow.BoltHitBody"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.7"
+	"pitch"			"93,108"
+	"soundlevel"		"SNDLVL_80db"
+
+	"rndwave"
+	{
+		"wave"		"weapons/crossbow/hitbod1.wav"
+		"wave"		"weapons/crossbow/hitbod2.wav"
+	}
+}
+
+"Weapon_Crossbow.BoltHitWorld"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		".95,1.0"
+	"pitch"			"110,130"
+	"soundlevel"		"SNDLVL_80db"
+
+        "rndwave"
+	{
+		"wave"			"weapons/crossbow/hit1.wav"
+		"wave"			"weapons/crossbow/hit2.wav"
+		"wave"			"weapons/crossbow/hit3.wav"
+		"wave"			"weapons/crossbow/hit4.wav"
+		"wave"			"weapons/crossbow/hit5.wav"
+		"wave"			"weapons/crossbow/hit6.wav"
+        }
+}
+
+"Weapon_Crossbow.BoltSkewer"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_90db"
+	"pitch"			"90,110"
+
+	"wave"		"weapons/crossbow/bolt_skewer1.wav"
+	
+}
+
+"Weapon_Crossbow.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"	"weapons/crossbow/crossbow_deploy.wav"
+}
+
+"Weapon_Crossbow.Lens"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/crossbow/crossbow_lens.wav"
+}
+
+"Weapon_Crossbow.String"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/crossbow/crossbow_string.wav"
+}
+
+"Weapon_Crossbow.DrawBack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/crossbow/crossbow_draw.wav"
+}
+
+"Weapon_Generic.Movement1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement1.wav"
+}
+
+"Weapon_Generic.Movement2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement2.wav"
+}
+
+"Weapon_Generic.Movement4"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement4.wav"
+}
+
+
+"Weapon_Generic.Movement5"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement5.wav"
+}
+
+"Weapon_Generic.Movement6"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement6.wav"
+}

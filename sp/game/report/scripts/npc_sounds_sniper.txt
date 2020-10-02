@@ -1,0 +1,228 @@
+//*****************************************************
+// Combine Sniper sounds
+
+
+"NPC_Sniper.Idle"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave" "vo/combine/officer/idle_01.wav"
+		"wave" "vo/combine/officer/idle_02.wav"
+		"wave" "vo/combine/officer/idle_03.wav"
+		"wave" "vo/combine/officer/idle_04.wav"
+		"wave" "vo/combine/officer/idle_05.wav"
+		"wave" "vo/combine/officer/idle_06.wav"
+		"wave" "vo/combine/officer/idle_07.wav"
+		"wave" "vo/combine/officer/idle_08.wav"
+		"wave" "vo/combine/officer/idle_09.wav"
+		"wave" "vo/combine/officer/idle_10.wav"
+		"wave" "vo/combine/officer/idle_11.wav"
+		"wave" "vo/combine/officer/idle_12.wav"
+		"wave" "vo/combine/officer/idle_13.wav"
+		"wave" "vo/combine/officer/idle_14.wav"
+		"wave" "vo/combine/officer/idle_15.wav"
+		"wave" "vo/combine/officer/idle_16.wav"
+		"wave" "vo/combine/officer/idle_17.wav"
+		"wave" "vo/combine/officer/idle_18.wav"
+		"wave" "vo/combine/officer/idle_19.wav"
+		"wave" "vo/combine/officer/idle_20.wav"
+	}
+}
+
+"NPC_Sniper.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave" "vo/combine/officer/firing_111.wav"
+		"wave" "vo/combine/officer/firing_112.wav"
+		"wave" "vo/combine/officer/firing_120.wav"
+		"wave" "vo/combine/officer/firing_121.wav"
+		"wave" "vo/combine/officer/firing_122.wav"
+	}
+}
+
+"NPC_Sniper.Die"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave" "vo/combine/officer/die_01.wav"
+		"wave" "vo/combine/officer/die_02.wav"
+		"wave" "vo/combine/officer/die_03.wav"
+		"wave" "vo/combine/officer/die_04.wav"
+		"wave" "vo/combine/officer/die_05.wav"
+		"wave" "vo/combine/officer/die_06.wav"
+		"wave" "vo/combine/officer/die_07.wav"
+		"wave" "vo/combine/officer/die_08.wav"
+		"wave" "vo/combine/officer/die_09.wav"
+		"wave" "vo/combine/officer/die_10.wav"
+	}
+}
+
+"NPC_Sniper.TargetHidden"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave" "vo/combine/officer/taunt_040.wav"
+		"wave" "vo/combine/officer/taunt_041.wav"
+		"wave" "vo/combine/officer/taunt_042.wav"
+		"wave" "vo/combine/officer/taunt_080.wav"
+		"wave" "vo/combine/officer/taunt_081.wav"
+		"wave" "vo/combine/officer/taunt_082.wav"
+		"wave" "vo/combine/officer/taunt_130.wav"
+		"wave" "vo/combine/officer/taunt_131.wav"
+		"wave" "vo/combine/officer/taunt_132.wav"
+		"wave" "vo/combine/officer/taunt_170.wav"
+		"wave" "vo/combine/officer/taunt_171.wav"
+		"wave" "vo/combine/officer/taunt_172.wav"
+		"wave" "vo/combine/officer/announceattack_cover_05.wav"
+		"wave" "vo/combine/officer/announceattack_cover_06.wav"
+		"wave" "vo/combine/officer/announceattack_cover_08.wav"
+	}
+}
+"NPC_Sniper.CoverDestroyed"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave" "vo/combine/officer/firing_130.wav"
+		"wave" "vo/combine/officer/firing_131.wav"
+		"wave" "vo/combine/officer/firing_150.wav"
+		"wave" "vo/combine/officer/firing_151.wav"
+		"wave" "vo/combine/officer/firing_152.wav"
+		"wave" "vo/combine/officer/firing_200.wav"
+		"wave" "vo/combine/officer/firing_201.wav"
+		"wave" "vo/combine/officer/firing_202.wav"
+	}
+}
+"NPC_Sniper.TargetDestroyed"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/combine/officer/announcekill_01.wav"
+		"wave"	"vo/combine/officer/announcekill_02.wav"
+		"wave"	"vo/combine/officer/announcekill_03.wav"
+		"wave"	"vo/combine/officer/announcekill_04.wav"
+		"wave"	"vo/combine/officer/announcekill_05.wav"
+		"wave"	"vo/combine/officer/announcekill_06.wav"
+		"wave"	"vo/combine/officer/announcekill_07.wav"
+		"wave"	"vo/combine/officer/announcekill_08.wav"
+		"wave"	"vo/combine/officer/announcekill_09.wav"
+		"wave"	"vo/combine/officer/announcekill_10.wav"
+		"wave"	"vo/combine/officer/announcekill_11.wav"
+		"wave"	"vo/combine/officer/27_6000.wav"
+	}
+}
+
+"NPC_Sniper.HearDanger"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/combine/officer/nearpanic_01.wav"
+		"wave"	"vo/combine/officer/nearpanic_02.wav"
+		"wave"	"vo/combine/officer/nearpanic_03.wav"
+		"wave"	"vo/combine/officer/nearpanic_04.wav"
+		"wave"	"vo/combine/officer/nearpanic_05.wav"
+	}
+}
+
+"NPC_Sniper.FireBullet"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.95"
+	"pitch"		"97,104"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"^npc/sniper/echo1.wav"
+	}
+}
+
+"NPC_Sniper.Reload"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.74"
+	"pitch"		"100"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"vo/combine/officer/reload1.wav"
+		"wave"	"vo/combine/officer/reload2.wav"
+		"wave"	"vo/combine/officer/reload3.wav"
+		"wave"	"vo/combine/officer/reload4.wav"
+		"wave"	"vo/combine/officer/reload5.wav"
+		"wave"	"vo/combine/officer/reload6.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+		"wave"	"npc/sniper/reload1.wav"
+	}
+}
+
+
+"NPC_Sniper.SonicBoom"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65"
+	"pitch"		"95,106"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"rndwave"
+	{
+		"wave"	"npc/sniper/sniper1.wav"
+	}
+}

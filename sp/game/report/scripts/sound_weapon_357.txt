@@ -1,0 +1,239 @@
+"Weapon_357.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.93"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	"pitch"			"88,93"	
+
+	"rndwave"
+	{
+		"wave"			"weapons/357/357_fire1.wav"
+                                   "wave"			"weapons/357/357_fire2.wav"
+		"wave"			"weapons/357/357_fire3.wav"
+	}
+}
+
+"Weapon_357.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/reload1.wav"
+}
+
+"Weapon_357.OpenLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload1.wav"
+}
+
+"Weapon_357.RemoveLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload2.wav"
+}
+
+"Weapon_357.ReplaceLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload3.wav"
+}
+
+"Weapon_357.CloseLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload4.wav"
+}
+
+"Weapon_357.Spin"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_spin1.wav"
+}
+
+"Weapon_357.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"	"weapons/357/357_deploy.wav"
+}
+
+"Weapon_357.Hammer_Pull"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/357/357_hammerpull.wav"
+}
+
+"Weapon_357.Hammer_Release"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/357/357_hammerrelease.wav"
+}
+
+"Weapon_357.Fidget_Spinner"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/357/357_spin2.wav"
+}
+
+"Weapon_Generic.Walk1"
+{
+    "channel"    "CHAN_AUTO"
+    "volume"        "0.3"
+    "soundlevel"        "SNDLVL_NONE"
+
+    "rndwave"
+	{
+		"wave"	"weapons/movement/Weapon_Movement_Walk1.wav"
+		"wave"	"weapons/movement/Weapon_Movement_Walk2.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk3.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk4.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk5.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk6.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk7.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk8.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk9.wav"
+	}
+}
+
+"Weapon_Generic.Walk2"
+{
+    "channel"    "CHAN_AUTO"
+    "volume"        "0.3"
+    "soundlevel"        "SNDLVL_NONE"
+
+    "rndwave"
+	{
+		"wave"	"weapons/movement/Weapon_Movement_Walk9.wav"
+		"wave"	"weapons/movement/Weapon_Movement_Walk8.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk7.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk6.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk5.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk4.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk3.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk2.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Walk1.wav"
+	}
+}
+
+"Weapon_Generic.Sprint1"
+{
+    "channel"    "CHAN_AUTO"
+    "volume"        "0.4"
+    "soundlevel"        "SNDLVL_NONE"
+
+    "rndwave"
+	{
+		"wave"	"weapons/movement/Weapon_Movement_Sprint1.wav"
+		"wave"	"weapons/movement/Weapon_Movement_Sprint2.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint3.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint4.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint5.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint6.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint7.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint8.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint9.wav"
+	}
+}
+
+"Weapon_Generic.Sprint2"
+{
+    "channel"    "CHAN_AUTO"
+    "volume"        "0.4"
+    "soundlevel"        "SNDLVL_NONE"
+
+    "rndwave"
+	{
+		"wave"	"weapons/movement/Weapon_Movement_Sprint9.wav"
+		"wave"	"weapons/movement/Weapon_Movement_Sprint8.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint7.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint6.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint5.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint4.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint3.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint2.wav"
+                                   "wave"	"weapons/movement/Weapon_Movement_Sprint1.wav"
+	}
+}
+
+"Weapon_Generic.Movement1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement1.wav"
+}
+
+"Weapon_Generic.Movement2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement2.wav"
+}
+
+"Weapon_Generic.Movement3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement3.wav"
+}
+
+"Weapon_Generic.Movement4"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement4.wav"
+}
+
+
+"Weapon_Generic.Movement5"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement5.wav"
+}
+
+"Weapon_Generic.Movement6"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement6.wav"
+}

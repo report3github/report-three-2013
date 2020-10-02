@@ -1,0 +1,183 @@
+"Weapon_AR2.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar2/ar2_empty.wav"
+}
+
+"Weapon_AR2.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar2/ar2_reload.wav"
+}
+
+"Weapon_AR2.Reload_Rotate"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar2/ar2_reload_rotate.wav"
+} 
+
+"Weapon_AR2.Reload_Push"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar2/ar2_reload_push.wav"
+}
+"Weapon_AR2.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"85,95"
+
+	"rndwave"
+	{
+		"wave"	"weapons/ar2/fire1.wav"
+		"wave"	"weapons/ar2/fire2.wav"
+		"wave"	"weapons/ar2/fire3.wav"
+	}
+}
+
+"Weapon_AR2.Special1"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"				"weapons/sniper/sniper_zoomin.wav"
+}
+
+"Weapon_AR2.Special2"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/sniper/sniper_zoomout.wav"
+}
+
+"Weapon_AR2.Double"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/ar2/ar2_altfire.wav"
+}
+
+"Weapon_AR2.NPC_Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar2/npc_ar2_reload.wav"
+}
+
+"Weapon_AR2.NPC_Double"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"			"weapons/ar2/npc_ar2_altfire.wav"
+}
+
+"Weapon_AR2.NPC_Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"95,105"
+
+//	"wave"			"^weapons/ar2/npc_ar2_fire1.wav"
+	"rndwave"
+	{
+	"wave"			"^weapons/ar2/ar2_dist1.wav"
+	"wave"			"^weapons/ar2/ar2_dist2.wav"
+	"wave"			"^weapons/ar2/ar2_dist3.wav"
+        }
+
+}
+
+"Weapon_AR2.MagOut"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/ar2/ar2_magout.wav"
+}
+
+"Weapon_AR2.MagIn"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/ar2/ar2_magin.wav"
+}
+
+"Weapon_AR2.FidgetRotate"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/ar2/ar2_rotate.wav"
+}
+
+"Weapon_AR2.FidgetPush"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/ar2/ar2_push.wav"
+}
+
+"Weapon_AR2.BoltPull"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/ar2/ar2_boltpull.wav"
+}
+
+"Weapon_Generic.Movement2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement2.wav"
+}
+
+"Weapon_Generic.Movement3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement3.wav"
+}
+
+"Weapon_Generic.Movement5"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement5.wav"
+}

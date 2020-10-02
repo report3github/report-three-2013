@@ -76,7 +76,7 @@ void CHudBattery::Paint(void)
 	BaseClass::Paint();
 
 	m_iconSuit = gHUD.GetIcon("battery_label_glow");
-	m_iconSuit->DrawSelf(icon_xpos, icon_ypos, Color(191, 138, 33, 48));
+	m_iconSuit->DrawSelf(icon_xpos, icon_ypos, Color(242, 72, 29, 64));
 
 	m_iconSuit = gHUD.GetIcon("battery_label");
 	m_iconSuit->DrawSelf(icon_xpos, icon_ypos, GetFgColor());
@@ -86,7 +86,7 @@ void CHudBattery::Paint(void)
 //-----------------------------------------------------------------------------
 void CHudBattery::Reset(void)
 {
-	SetLabelText(g_pVGuiLocalize->Find("#Valve_Hud_SUIT"));
+//	SetLabelText(g_pVGuiLocalize->Find(""));
 	SetDisplayValue(m_iBat);
 }
 

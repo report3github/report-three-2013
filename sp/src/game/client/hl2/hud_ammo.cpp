@@ -80,15 +80,6 @@ void CHudAmmo::Init(void)
 	m_iconPrimaryAmmo = NULL;
 	m_iconAmmo = NULL;
 
-	wchar_t *tempString = g_pVGuiLocalize->Find("#Valve_Hud_AMMO");
-	if (tempString)
-	{
-		SetLabelText(tempString);
-	}
-	else
-	{
-		SetLabelText(L"#Valve_Hud_AMMO");
-	}
 }
 
 //-----------------------------------------------------------------------------
@@ -341,6 +332,19 @@ void CHudAmmo::Paint(void)
 
 	m_iconAmmo = gHUD.GetIcon("ammo_label");
 	m_iconAmmo->DrawSelf(icon_xpos, icon_ypos, Color(76, 76, 76, 128));
+
+	if (m_hCurrentVehicle == NULL && m_iconPrimaryAmmo)
+	{
+		int nLabelHeight;
+		int nLabelWidth;
+		surface()->GetTextSize(m_hTextFont, m_LabelText, nLabelWidth, nLabelHeight);
+
+		// Figure out where we're going to put this
+		int x = text_xpos + (nLabelWidth - m_iconPrimaryAmmo->Width());
+		int y = text_ypos - (nLabelHeight + (m_iconPrimaryAmmo->Height()));
+
+		m_iconPrimaryAmmo->DrawSelf(x, y, GetFgColor());
+	}
 }
 
 //-----------------------------------------------------------------------------
@@ -360,15 +364,6 @@ public:
 
 	void Init(void)
 	{
-		wchar_t *tempString = g_pVGuiLocalize->Find("#Valve_Hud_AMMO_ALT");
-		if (tempString)
-		{
-			SetLabelText(tempString);
-		}
-		else
-		{
-			SetLabelText(L"ALT");
-		}
 	}
 
 	void VidInit(void)
@@ -420,8 +415,8 @@ public:
 			surface()->GetTextSize(m_hTextFont, m_LabelText, nLabelWidth, nLabelHeight);
 
 			// Figure out where we're going to put this
-			int x = text_xpos + (nLabelWidth - m_iconSecondaryAmmo->Width()) / 2;
-			int y = text_ypos - (nLabelHeight + (m_iconSecondaryAmmo->Height() / 2));
+			int x = text_xpos + (nLabelWidth - m_iconSecondaryAmmo->Width());
+			int y = text_ypos - (nLabelHeight + (m_iconSecondaryAmmo->Height()));
 
 			m_iconSecondaryAmmo->DrawSelf(x, y, GetFgColor());
 		}

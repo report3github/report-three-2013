@@ -1,0 +1,221 @@
+"Weapon_Shotgun.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,100"
+
+	"wave"			"weapons/shotgun/shotgun_empty.wav"
+}
+
+"Weapon_Shotgun.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"			"weapons/shotgun/shotgun_reload1.wav"
+		"wave"			"weapons/shotgun/shotgun_reload2.wav"
+		"wave"			"weapons/shotgun/shotgun_reload3.wav"
+		"wave"			"weapons/shotgun/shotgun_reload4.wav"
+		"wave"			"weapons/shotgun/shotgun_reload5.wav"
+		"wave"			"weapons/shotgun/shotgun_reload6.wav"
+	}
+}
+
+"Weapon_Shotgun.Special1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/shotgun/shotgun_cock.wav"
+}
+
+"Weapon_Shotgun.Single"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+	"rndwave"
+	{
+		"wave"			"weapons/shotgun/shotgun_fire1.wav"
+                                   "wave"			"weapons/shotgun/shotgun_fire2.wav"
+                                   "wave"			"weapons/shotgun/shotgun_fire3.wav"
+	}
+}
+
+"Weapon_Shotgun.Double"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"90,95"
+
+	"rndwave"
+	{
+		"wave"			"weapons/shotgun/shotgun_dbl_fire1.wav"
+                                   "wave"			"weapons/shotgun/shotgun_dbl_fire2.wav"
+                                   "wave"			"weapons/shotgun/shotgun_dbl_fire3.wav"
+	}
+}
+
+"Weapon_Shotgun.NPC_Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"			"weapons/shotgun/shotgun_reload1.wav"
+		"wave"			"weapons/shotgun/shotgun_reload2.wav"
+		"wave"			"weapons/shotgun/shotgun_reload3.wav"
+		"wave"			"weapons/shotgun/shotgun_reload4.wav"
+		"wave"			"weapons/shotgun/shotgun_reload5.wav"
+		"wave"			"weapons/shotgun/shotgun_reload6.wav"
+	}
+}
+
+"Weapon_Shotgun.NPC_Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.95"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+
+	"wave"		"^weapons/shotgun/npc_shotgun_fire.wav"
+
+}
+
+"Weapon_Shotgun.NPC_Double"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.95"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+
+	"wave"		"^weapons/shotgun/npc_shotgun_dbl_fire.wav"
+
+}
+
+"Weapon_Shotgun.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"	"weapons/shotgun/shotgun_deploy.wav"
+}
+
+"Weapon_Shotgun.Pump_forward"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/shotgun/shotgun_pump_forward.wav"
+}
+
+"Weapon_Shotgun.Pump_back"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/shotgun/shotgun_pump_back.wav"
+}
+
+"Weapon_Shotgun.Cock_Back"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_NORM"
+                  
+                  "pitch"			"100,101"
+ 
+
+	"rndwave"
+	{
+		"wave"			"weapons/shotgun/shotgun_cock_back1.wav"
+		"wave"			"weapons/shotgun/shotgun_cock_back2.wav"
+		"wave"			"weapons/shotgun/shotgun_cock_back3.wav"
+	}
+
+}
+
+"Weapon_Shotgun.Cock_Forward"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_NORM"
+
+                  "pitch"			"100,101"
+
+	
+	"rndwave"
+	{
+		"wave"			"weapons/shotgun/shotgun_cock_forward1.wav"
+		"wave"			"weapons/shotgun/shotgun_cock_forward2.wav"
+		"wave"			"weapons/shotgun/shotgun_cock_forward3.wav"
+	}
+
+}
+
+"Weapon_Generic.Movement1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement1.wav"
+}
+
+"Weapon_Generic.Movement2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement2.wav"
+}
+
+"Weapon_Generic.Movement3"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement3.wav"
+}
+
+"Weapon_Generic.Movement4"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement4.wav"
+}
+
+
+"Weapon_Generic.Movement5"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement5.wav"
+}
+
+"Weapon_Generic.Movement6"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+
+	"wave"	"weapons/movement/Weapon_Movement6.wav"
+}

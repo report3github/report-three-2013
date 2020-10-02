@@ -280,10 +280,10 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"64"
-				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
+				"scanlines"	"1"
 				"custom"	"1"
 			}
 		}
@@ -293,7 +293,6 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"64"
-				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
 				"blur"		"5"
@@ -310,6 +309,7 @@ Scheme
 				"tall"		"32"
 				"weight"	"0"
 				"antialias" "1"
+				"scanlines"	"1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -319,10 +319,11 @@ Scheme
 			"1"
 			{
 				"name"		"Crosshairs"
-				"tall"		"40" [!$OSX]
-				"tall"		"41" [$OSX]
+				"tall"		"60" 
 				"weight"	"0"
 				"antialias" "0"
+				"scanlines"	"1"
+				"outline"   "1"
 				"additive"	"1"
 				"custom"	"1"
 				"yres"		"1 10000"
@@ -346,7 +347,7 @@ Scheme
 			"1"
 			{
 				"name"		"Crosshairs"
-				"tall"		"41"	[$WIN32]
+				"tall"		"41"
 				"weight"	"0"
 				"blur"		"5"
 				"antialias" "1"
@@ -356,35 +357,25 @@ Scheme
 		}
 		QuickInfo
 		{
-			"1"	[$X360]
+			"1"	
 			{
 				"name"		"HL2cross"
-				"tall"		"57"
-				"weight"	"0"
-				"antialias" 	"1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-			"1"	[$WIN32]
-			{
-				"name"		"HL2cross"
-				"tall"		"28" [!$OSX]
-				"tall"		"50" [$OSX]
+				"tall"		"14" 
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
-				"custom"	"1" [!$OSX]
 			}
 		}
 		HudNumbers
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"DS-Digital"
 				"tall"		"32"	[$WIN32]
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
+				"scanlines" "1"
 				"custom"	"1"
 			}
 		}
@@ -404,10 +395,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"DS-Digital"
 				"tall"		"32"	[$WIN32]
 				"weight"	"0"
-				"blur"		"4"
+				"blur"		"5"
 				"scanlines" "2"
 				"antialias" "1"
 				"additive"	"1"
@@ -418,11 +409,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2" [!$OSX]
-				"tall"		"16"	[$WIN32]
+				"name"		"DS-Digital" 
+				"tall"		"16"	
 				"weight"	"1000"
 				"additive"	"1"
 				"antialias" "1"
+				"scanlines" "2"
 				"custom"	"1"
 			}
 		}
@@ -430,11 +422,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2" 
+				"name"		"DS-Digital" 
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
 				"antialias" "1"
+				"blur"		"5"
+				"scanlines" "2"
 				"custom"	"1"
 			}
 		}
